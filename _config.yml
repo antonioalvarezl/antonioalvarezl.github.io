@@ -81,10 +81,19 @@ publication_category:
 #    title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+  proceedings:
+    title: 'Proceedings'
   preprints:
     title: 'Preprints'
+
+# Talk Category - The following the list of talk categories and their headings
+talk_category:
+  conferences:
+    title: 'Conferences'    
+  seminars:
+    title: 'Seminars'
+  posters:
+    title: 'Posters'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
