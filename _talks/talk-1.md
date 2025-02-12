@@ -1,7 +1,7 @@
 ---
 title: "Formation of singularities in the incompressible Euler fluid equations."
 collection: talks
-type: "Talk"
+category: seminars
 permalink: /talks/talk-1
 venue: "Universidad de Santiago de Compostela, Instituto de Matemáticas. Seminarios de Iniciación a la Investigación"
 date: 2021-04-04
