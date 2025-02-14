@@ -22,12 +22,12 @@ repository               : "antonioalvarezl/antonioalvarezl.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/fotocv.png"
+  avatar           : "fotocv.png"
   name             : "Antonio Álvarez-López"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student in Machine Learning and Control Theory"
+  bio              : "PhD Student @ ICMAT - Universidad Autónoma de Madrid"
   location         : "Madrid"
-  employer         : "Universidad Autónoma de Madrid"
+  employer         : # "Universidad Autónoma de Madrid"
   uri              : # URL
   email            : "antonio.alvarezl@uam.es" 
 
@@ -59,7 +59,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : antonio-álvarez-lópez-6a09851b4
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
