@@ -6,8 +6,8 @@ permalink: /publication/interplay-depth-width-nodes
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-12-01
 venue: 'Neural Networks'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://www.sciencedirect.com/science/article/pii/S0893608024005641'
+# slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
+%paperurl: 'https://www.sciencedirect.com/science/article/pii/S0893608024005641'
 citation: 'Antonio Álvarez-López, Arselane Hadj Slimane, Enrique Zuazua (2024). &quot;Interplay between depth and width for interpolation in neural ODEs.&quot; <i>Neural Networks</i>. 180(106640).'
 ---
 
