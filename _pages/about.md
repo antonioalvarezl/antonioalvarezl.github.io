@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-My passion is learning. Currently focused on the scope of maths as  AI. As Galileo said: ``Egli è scritto in lingua matematica''
+My passion is learning. Currently driven by the power of maths to deepen and advance AI. As Galileo said: \emph{Egli è scritto in lingua matematica}.
 
 For more info
 ------
