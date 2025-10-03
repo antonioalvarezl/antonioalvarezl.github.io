@@ -3,116 +3,115 @@ layout: page
 title: Talks
 ---
 
-Here is a list of my talks and presentations (including presenting work by other authors in reading groups):
+Here is a list of my talks and presentations:
 
-- **Listening to Multi-talker Conversations: Modular and End-to-end Perspectives**
-  [Slides](/static/ppt/thesis_defense.pdf){: .btn} 
-  [Video](https://www.youtube.com/watch?v=iKnCUHIgG7A){: .btn}  
-  *PhD Thesis Defense*  
-  January 26, 2024
+## **Invited Talks (Seminars)**
 
-- **VoiceBox: Text-guided multi-lingual speech generation at scale**
-  [Slides](/static/ppt/voicebox.pdf){: .btn}  
-  *Speech Technologies Reading Group*  
-  September 22, 2023
+- **Entropy-driven control of the continuity equation for normalizing flows**  
+  *Machine Learning and Scientific Computing Seminar*  
+  National University of Singapore  
+  September 29, 2025
 
-- **Listening to Multi-talker Conversations: Modular and End-to-end Perspectives**
-  [Slides](/static/ppt/nvidia_talk.pdf){: .btn}  
-  *Invited talk at NVIDIA Speech group*  
-  August 18, 2023
+- **Entropy-driven control of the continuity equation for normalizing flows**  
+  *Nonlinear PDE Seminar*  
+  Department of Mathematics, Texas A&M University  
+  September 16, 2025
 
-- **FLASH Attention**
-  [Slides](/static/ppt/flash_attention.pdf){: .btn}  
-  *Speech Technologies Reading Group*  
-  April 14, 2023
+- **Presentations in Learning Rate — Machine Learning Research Discussion Series**  
+  *FAU-UAM Joint Seminar*  
+  4 sessions (October 29, 2024; November 5, 2024; May 30, 2025; June 13, 2025)
 
-- **Target Speaker Methods for Speech Recognition**
-  [Slides](/static/ppt/clsp_seminar_tsasr.pdf){: .btn}  
-  *CLSP Seminar*  
-  March 27, 2023
+- **Controllability of neural differential equations**  
+  *Seminario Fontán de Matemáticas*  
+  Universidade de Santiago de Compostela  
+  April 1, 2024
 
-- **Training RNN-T models without memory bottleneck**
-  [Slides](/static/ppt/transducer_memory_reading_group.pdf){: .btn}  
-  *Speech Technologies Reading Group*  
-  October 14, 2022
+- **Stable Architectures for Deep Neural Networks**  
+  *Mathematics for Deep Learning Reading Group*  
+  Universities of Bath, Cambridge, and University College London  
+  February 22, 2024
 
-- **GBO presentation**
-  [Slides](/static/ppt/gbo_presentation.pdf){: .btn}  
-  *Malone 228* (May 04, 2022)
+- **Efficient classification and interpolation with neural ODEs**  
+  *Mathematics Seminar*  
+  School of Mathematics, Sichuan University  
+  January 25, 2024
 
-- **Overlap-aware Speaker Diarization: Methods and Ensembles**  
-  *ISCA SIG-ML Seminar* (May 05, 2021): [Video](https://www.youtube.com/watch?v=SHWNqU9g_hU){: .btn} [Slides](/static/ppt/isca_sigml_desh.pdf){: .btn}  
-  *CLSP Seminar* (January 29, 2021): [Slides](/static/ppt/clsp_seminar_talk.pdf){: .btn}  
+- **Breaking the curse of dimensionality with Barron Spaces**  
+  *Applied PDEs Seminar*  
+  Applied Mathematics and Mathematical Physics Section, Imperial College London  
+  February 28, 2023
 
-- **TS-ASR: Speaker Beam and Voice Filter**
-  [Slides](/static/ppt/ts_asr_reading_group.pdf){: .btn}  
-  *Speech Technologies Reading Group*  
-  October 02, 2020
+- **Breaking the curse of dimensionality with Barron Spaces**  
+  *FAU-DCN Seminar*  
+  Friedrich-Alexander-Universität Erlangen-Nürnberg  
+  November 14, 2022
 
-- **Informed Target Speaker ASR** 
-	[Slides](/static/ppt/jsalt_final.pdf){: .btn}  
-	*JSALT 2020 Closing Presentation*  
-	August 06, 2020 
+- **Formation of singularities in the incompressible Euler fluid equations**  
+  *Seminarios de Iniciación a la Investigación*  
+  Instituto de Matemáticas, Universidade de Santiago de Compostela  
+  April 4, 2021
 
-- **Target Speaker - Voice Activity Detection**
-	[Paper](https://arxiv.org/abs/2005.07272){: .btn} 
-	[Slides](/static/ppt/ts-vad.pdf){: .btn}  
-	*Speech Technologies Reading Group*  
-	May 29, 2020 
+---
 
-- **The JHU Multi-Microphone Multi-Speaker ASR System for the CHiME-6 Challenge**
-	[Video](https://www.youtube.com/watch?v=BLK8YFNk7is&feature=youtu.be){: .btn}
-	[Slides](/static/ppt/chime6_slides.pdf){: .btn}   
-	*CHiME-6 Virtual Workshop*    
-	May 04, 2020
+## **Invited Talks (Conferences & Workshops)**
 
-- **CLSP Seminar Lightning Talk**
-	[Slides](/static/ppt/lightning_talk.pdf){: .btn}   
-	*CLSP Seminar*  
-	April 03, 2020
+- **Cluster-based classification with neural ODEs via control**  
+  *Conference X Partial Differential Equations, Optimal Design and Numerics*  
+  Centro de Ciencias de Benasque Pedro Pascual  
+  August 27, 2024
 
-- **Imputer: Sequence Modeling via Imputation and Dynamic Programming**
-	[Paper](https://arxiv.org/pdf/2002.08926.pdf){: .btn} 
-	[Slides](/static/ppt/imputer.pdf){: .btn}  
-	*Speech Technologies Reading Group*  
-	Barton 225, 3101 Wyman Park Dr, Baltimore  
-	March 06, 2020 
+- **Interplay between depth and width for interpolation in neural ODEs**  
+  *Conference X Partial Differential Equations, Optimal Design and Numerics*  
+  Centro de Ciencias de Benasque Pedro Pascual  
+  August 26, 2024
 
-- **Transformer ASR with Contextual Block Processing**
-	[Paper](https://arxiv.org/pdf/1910.07204.pdf){: .btn} 
-	[Slides](/static/ppt/transformer_asr_contextual.pdf){: .btn}  
-	*Speech Technologies Reading Group*  
-	Hackerman 320, 3101 Wyman Park Dr, Baltimore  
-	November 04, 2019 
+- **Controllability of neural ODEs for data classification**  
+  *21st French-German-Spanish Conference on Optimization*  
+  Universidad de Oviedo  
+  June 21, 2024
 
-- **Joint CTC-Attention for ASR using Multi-task Learning**
-	[Paper](https://arxiv.org/pdf/1609.06773.pdf){: .btn} 
-	[Slides](/static/ppt/joint_ctc_attention.pdf){: .btn}  
-	*Information Extraction Lightning Talk*  
-	Hackerman 320, 3101 Wyman Park Dr, Baltimore  
-	May 02, 2019 
+- **Neural ODEs and data classification**  
+  *V BYMAT Conference*  
+  ICMAT, Madrid  
+  November 14, 2023
 
-- **Contrastive Predictive Coding**
-	[Paper](https://arxiv.org/pdf/1807.03748.pdf){: .btn} 
-	[Slides](/static/ppt/contrastive_predictive_coding.pdf){: .btn}  
-	*Speech Technologies Reading Group*  
-	Barton 225, 3101 Wyman Park Dr, Baltimore  
-	April 29, 2019  
+- **On the separability of two finite sets of random points using hyperplanes**  
+  *Mini-workshop between Technische Universität München (Applied Numerical Analysis group) and FAU-DCN*  
+  March 1, 2023
 
-- **Dataset Shift in NLP**
-	[Paper](https://homepages.inf.ed.ac.uk/amos/publications/Storkey2009TrainingTestDifferent.pdf){: .btn} 
-	[Slides](/static/ppt/dataset_shift.pdf){: .btn}  
-	*NLP Reading Group*  
-	Hackerman 306, 3101 Wyman Park Dr, Baltimore  
-	April 17, 2019 
+---
 
-- **Attention-based Models for ASR**
-	[Paper](https://arxiv.org/pdf/1508.01211.pdf){: .btn} 
-	[Slides](/static/ppt/attention_models_asr.pdf){: .btn}  
-	*Speech Technologies Reading Group*  
-	Barton 225, 3101 Wyman Park Dr, Baltimore  
-	March 11, 2019  
+## **Poster Presentations**
 
-<br /> 
+- **Controllability of Neural ODEs for Classification**  
+  *2024 Conference on Control, Inversion and Numerics for PDEs*  
+  Fudan University, Shanghai  
+  October 7-10, 2024
 
+- **Simultaneous Control of Neural ODEs for Data Classification**  
+  *Mathematical Aspects of Learning Theory — 20 years later*  
+  Casa Convalescència, Barcelona  
+  September 10, 2024
 
+- **Simultaneous Control of Neural ODEs for Data Classification**  
+  *Fourth Symposium on Machine Learning and Dynamical Systems*  
+  Fields Institute, Toronto  
+  July 9, 2024
+
+- **Optimized Classification with Neural ODEs**  
+  *Trends in Mathematical Sciences Conference*  
+  Friedrich-Alexander-Universität Erlangen-Nürnberg  
+  June 12, 2024
+
+- **Optimized Classification with Neural ODEs**  
+  *Dynamics, Data and Deep Learning Workshop*  
+  Engineers' House, Bristol  
+  March 25, 2024  
+  **Best Poster Award**
+
+- **Optimized Classification with Neural ODEs**  
+  *Mathematical Opportunities in Digital Twins Workshop*  
+  George Mason University, Fairfax  
+  December 11, 2023
+
+---
