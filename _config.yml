@@ -24,7 +24,7 @@ description: Personal Website  # ← CAMBIA ESTO: "Researcher in Economics" o lo
 # List of links in the navigation bar
 navbar-links:
   Home: ""
-  Publications: "publications"
+  Papers: "papers"
   Blog: "blog"
   Code: "code"
   Talks: "talks"
