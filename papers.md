@@ -31,7 +31,7 @@ Antonio Álvarez-López, Arselane Hadj Slimane, Enrique Zuazua
 **Convergence, design and training of continuous-time dropout as a random batch method**  
 Antonio Álvarez-López, Martín Hernández
 *ArXiv preprint*, 2025  
-[ArXiv]((https://arxiv.org/abs/2510.13134)){: .btn}
+[ArXiv](https://arxiv.org/abs/2510.13134){: .btn}
 
 **Continuous temporal learning of probability distributions via Neural ODEs with applications in continuous glucose monitoring data**  
 Antonio Álvarez-López, Marcos Matabuena  
@@ -55,4 +55,5 @@ Advisors: Alberto Enciso, María Victoria Otero Espinar
 [PDF](https://minerva.usc.gal/rest/api/core/bitstreams/4a12f11d-a015-47bf-84cd-d12f15ef278c/content){: .btn}
 
 ---
+
 
