@@ -13,16 +13,19 @@ You can also browse my <a href="https://scholar.google.com/citations?user=4Xm2yL
 Antonio Álvarez-López, Borjan Geshkovski, Domènec Ruiz-Balet  
 *Applied Mathematics & Optimization*, Vol. 92, Number 33, 2025 
 [Paper](https://link.springer.com/article/10.1007/s00245-025-10299-7){: .btn}
+[BibTeX](assets/bibtex/constructive.txt){: .btn}
 
 **Cluster-based classification with neural ODEs via control**  
 Antonio Álvarez-López, Rafael Orive-Illera, Enrique Zuazua  
 *Journal of Machine Learning*, Vol. 4, Iss. 2, pp. 128–156, 2025
-[Paper](https://global-sci.com/article/91926/cluster-based-classification-with-neural-odes-via-control){: .btn}
+[Paper](https://journal.global-sci.org/intro/online/read?online_id=2670){: .btn}
+[BibTeX](assets/bibtex/cluster.txt){: .btn}
 
 **Interplay between depth and width for interpolation in neural ODEs**  
 Antonio Álvarez-López, Arselane Hadj Slimane, Enrique Zuazua  
 *Neural Networks*, Vol. 180, 106640, 2024  
-[Paper](https://www.sciencedirect.com/science/article/pii/S0893608024005641){: .btn}
+[Paper] (https://www.sciencedirect.com/science/article/pii/S0893608024005641){: .btn}
+[BibTeX](assets/bibtex/interplay.txt){: .btn}
 
 ---
 
@@ -32,11 +35,13 @@ Antonio Álvarez-López, Arselane Hadj Slimane, Enrique Zuazua
 Antonio Álvarez-López, Martín Hernández
 *ArXiv preprint*, 2025  
 [ArXiv](https://arxiv.org/abs/2510.13134){: .btn}
+[BibTeX](/assets/bibtex/dropout.txt){: .btn}
 
 **Continuous temporal learning of probability distributions via Neural ODEs with applications in continuous glucose monitoring data**  
 Antonio Álvarez-López, Marcos Matabuena  
 *ArXiv preprint*, 2025  
 [ArXiv](https://arxiv.org/abs/2505.08698){: .btn}
+[BibTeX](/assets/bibtex/glucose.txt){: .btn}
 
 ---
 
@@ -45,8 +50,9 @@ Antonio Álvarez-López, Marcos Matabuena
 **Master's Thesis: El problema de Parker en magnetohidrodinámica y aplicaciones de transición para campos force-free**  
 Antonio Álvarez-López  
 *Universidad Complutense de Madrid*, 2022  
-Advisors: Alberto Enciso, Jose María Arrieta 
-[PDF](https://blogs.mat.ucm.es/mmatavan/wp-content/uploads/sites/12/2021/12/2021-22_Antonio-Alvarez-Lopez_Propuesta-TFM.pdf){: .btn}
+Advisors: Alberto Enciso, Jose María Arrieta  
+
+<a href="/assets/pdf/AlvarezLopez_TFM_2022.pdf" class="btn" download="AlvarezLopez_TFM_2022.pdf">PDF</a>
 
 **Bachelor's Thesis: Ecuaciones de Euler de fluidos incompresibles**  
 Antonio Álvarez-López  
@@ -55,5 +61,6 @@ Advisors: Alberto Enciso, María Victoria Otero Espinar
 [PDF](https://minerva.usc.gal/rest/api/core/bitstreams/4a12f11d-a015-47bf-84cd-d12f15ef278c/content){: .btn}
 
 ---
+
 
 
