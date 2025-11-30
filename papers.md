@@ -52,7 +52,7 @@ Antonio Álvarez-López
 *Universidad Complutense de Madrid*, 2022  
 Advisors: Alberto Enciso, Jose María Arrieta  
 
-<a href="/assets/pdf/AlvarezLopez_TFM_2022.pdf" class="btn" download="AlvarezLopez_TFM_2022.pdf">PDF</a>
+<a href="/static/pdf/tfm.pdf" class="btn" download="AlvarezLopez_TFM_2022.pdf">PDF</a>
 
 **Bachelor's Thesis: Ecuaciones de Euler de fluidos incompresibles**  
 Antonio Álvarez-López  
@@ -61,6 +61,7 @@ Advisors: Alberto Enciso, María Victoria Otero Espinar
 [PDF](https://minerva.usc.gal/rest/api/core/bitstreams/4a12f11d-a015-47bf-84cd-d12f15ef278c/content){: .btn}
 
 ---
+
 
 
 
