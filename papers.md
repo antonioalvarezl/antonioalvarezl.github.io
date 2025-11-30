@@ -24,7 +24,7 @@ Antonio Álvarez-López, Rafael Orive-Illera, Enrique Zuazua
 **Interplay between depth and width for interpolation in neural ODEs**  
 Antonio Álvarez-López, Arselane Hadj Slimane, Enrique Zuazua  
 *Neural Networks*, Vol. 180, 106640, 2024  
-[Paper] (https://www.sciencedirect.com/science/article/pii/S0893608024005641){: .btn}
+[Paper](https://www.sciencedirect.com/science/article/pii/S0893608024005641){: .btn}
 [BibTeX](assets/bibtex/interplay.txt){: .btn}
 
 ---
@@ -51,8 +51,7 @@ Antonio Álvarez-López, Marcos Matabuena
 Antonio Álvarez-López  
 *Universidad Complutense de Madrid*, 2022  
 Advisors: Alberto Enciso, Jose María Arrieta  
-
-<a href="/static/pdf/tfm.pdf" class="btn" download="AlvarezLopez_TFM_2022.pdf">PDF</a>
+<a href="/static/pdf/tfm.pdf" class="btn" target="_blank">Open PDF</a>
 
 **Bachelor's Thesis: Ecuaciones de Euler de fluidos incompresibles**  
 Antonio Álvarez-López  
@@ -61,6 +60,7 @@ Advisors: Alberto Enciso, María Victoria Otero Espinar
 [PDF](https://minerva.usc.gal/rest/api/core/bitstreams/4a12f11d-a015-47bf-84cd-d12f15ef278c/content){: .btn}
 
 ---
+
 
 
 
