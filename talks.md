@@ -3,7 +3,7 @@ layout: page
 title: Talks
 ---
 
-Here is a list of my talks and poster presentations (only the most recent version of the slides are provided for each talk):
+Here is a list of my talks and poster presentations (only the most recent version of each slides are provided):
 
 ## **Invited Talks (Seminars)**
 
