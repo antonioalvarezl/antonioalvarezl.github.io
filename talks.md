@@ -3,7 +3,7 @@ layout: page
 title: Talks
 ---
 
-Here is a list of my talks and presentations:
+Here is a list of my talks and poster presentations:
 
 ## **Invited Talks (Seminars)**
 
