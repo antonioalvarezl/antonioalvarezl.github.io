@@ -7,12 +7,12 @@ Here is a list of my talks and poster presentations:
 
 ## **Invited Talks (Seminars)**
 
-- **Entropy-driven control of the continuity equation for normalizing flows**  
+- **Entropy-driven control of the continuity equation for normalizing flows**  [[Slides]](/assets/slides/NUS.pdf)
   *Machine Learning and Scientific Computing Seminar*  
   National University of Singapore  
   September 29, 2025
 
-- **Entropy-driven control of the continuity equation for normalizing flows**  
+- **Entropy-driven control of the continuity equation for normalizing flows**  [[Slides]](/assets/slides/NUS.pdf)
   *Nonlinear PDE Seminar*  
   Department of Mathematics, Texas A&M University  
   September 16, 2025
@@ -55,17 +55,22 @@ Here is a list of my talks and poster presentations:
 
 ## **Invited Talks (Conferences & Workshops)**
 
-- **Cluster-based classification with neural ODEs via control**  
+- **Continuous-Time Learning of Probability Distributions via Neural ODEs with Applications in Continuous Glucose Monitoring Data** [[Slides]](/assets/slides/ICSDS.pdf)
+  *IMS International Conference on Statistics and Data Science (ICSDS)* Seville, Spain  
+  December 17, 2025  
+  **Student Travel Award**
+
+- **Cluster-based classification with neural ODEs via control**  [[Slides]](/assets/slides/BenasqueCluster.pdf)
   *Conference X Partial Differential Equations, Optimal Design and Numerics*  
   Centro de Ciencias de Benasque Pedro Pascual  
   August 27, 2024
 
-- **Interplay between depth and width for interpolation in neural ODEs**  
+- **Interplay between depth and width for interpolation in neural ODEs**  [[Slides]](/assets/slides/BenasqueInterplay.pdf)
   *Conference X Partial Differential Equations, Optimal Design and Numerics*  
   Centro de Ciencias de Benasque Pedro Pascual  
   August 26, 2024
 
-- **Controllability of neural ODEs for data classification**  
+- **Controllability of neural ODEs for data classification**  [[Slides]](/assets/slides/FGS.pdf)
   *21st French-German-Spanish Conference on Optimization*  
   Universidad de Oviedo  
   June 21, 2024
@@ -83,7 +88,7 @@ Here is a list of my talks and poster presentations:
 
 ## **Poster Presentations**
 
-- **Controllability of Neural ODEs for Classification**  
+- **Controllability of Neural ODEs for Classification**  [[Poster]](/assets/posters/Shanghai.pdf)
   *2024 Conference on Control, Inversion and Numerics for PDEs*  
   Fudan University, Shanghai  
   October 7-10, 2024
