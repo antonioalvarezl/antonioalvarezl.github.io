@@ -55,7 +55,7 @@ Here is a list of my talks and poster presentations (only the most recent versio
 
 ## **Poster Presentations**
 
-- **Controllability of Neural ODEs for Classification** [[Slides]](/assets/posters/SHANGHAI.pdf)
+- **Controllability of Neural ODEs for Classification** [[Poster]](/assets/posters/SHANGHAI.pdf)
   <br>*2024 Conference on Control, Inversion and Numerics for PDEs*, Fudan University, Shanghai. October 7-10, 2024.
 
 - **Simultaneous Control of Neural ODEs for Data Classification**
