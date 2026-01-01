@@ -7,14 +7,6 @@ Here are some of my open-source projects and interactive demos. You can find mor
 
 ---
 
-## **Interactive Demos**
-
-**ReLU Semi-Autonomous Neural ODE Simulator**  
-Interactive demo for exploring the evolution of point clouds under p-neurons ReLU Semi-Autonomous Neural ODEs. Includes free exploration, interpolation tracking, and classification modes with separability and cross-entropy metrics.  
-[Live Demo](https://antonioalvarezl.github.io/sa-node-point-simulator/){: .btn}
-[GitHub](https://github.com/antonioalvarezl/sa-node-point-simulator/){: .btn}  
-*Related papers:* Universal Approximation of Dynamical Systems by Semi-Autonomous Neural ODEs and Applications (Preprint, 2025) and Interplay between depth and width for interpolation in neural ODEs (Neural Networks, 2024)
-
 **ReLU Neural ODE Point Simulator**  
 Interactive demo for exploring the evolution of point clouds under single-unit ReLU Neural ODEs. Includes free exploration, interpolation tracking, and classification modes with separability and cross-entropy metrics.  
 [Live Demo](https://antonioalvarezl.github.io/relu-point-simulator/){: .btn}
@@ -31,14 +23,18 @@ Interactive visualization tool to explore density evolution under piecewise-line
 
 ## **Research Code**
 
-**Neural ODE Classification Framework**  
-Complete implementation of the cluster-based classification approach with Neural ODEs from our paper. Includes synthetic and real-world dataset support (MNIST, CIFAR-10), multiple architectures (inside, outside, bottleneck), visualization tools, and trajectory animations.  
-[GitHub](https://github.com/antonioalvarezl/2024-WCS-NODEs){: .btn}  
-*Paper:* Cluster-based classification with neural ODEs via control (CMS, 2025)
+**
+Optimization of a time-dependent Gaussian Mixture Model (GMM) using a Maximum Mean Discrepancy (MMD)-based objective to fix global means and variances, and modeling the continuous evolution of the local mixing weights via Neural Ordinary Differential Equations (Neural ODEs); applications in continuous glucose monitoring.
+[GitHub](https://github.com/antonioalvarezl/2025-EM_MMD)){: .btn}  
 
 **Gaussian Mixture Optimization**  
 Comparison framework for evaluating different loss functions (KL divergence, L1, L2) in gradient descent optimization. Supports flexible parameter optimization (means, variances, weights), multiple optimization methods (standard GD, alternating GD, Adam, stage-wise), and generates visualizations and animations of the optimization process.  
 [GitHub](https://github.com/antonioalvarezl/2024-LossComparisonGD){: .btn}
+
+**Neural ODE Classification Capacity**  
+Complete implementation of the cluster-based classification approach with Neural ODEs from our paper. Includes synthetic and real-world dataset support (MNIST, CIFAR-10), multiple architectures (inside, outside, bottleneck), visualization tools, and trajectory animations.  
+[GitHub](https://github.com/antonioalvarezl/2024-WCS-NODEs){: .btn}  
+*Paper:* Cluster-based classification with neural ODEs via control (CMS, 2025)
 
 ---
 
