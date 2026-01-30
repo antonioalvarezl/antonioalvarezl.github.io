@@ -31,6 +31,13 @@ Antonio Álvarez-López, Arselane Hadj Slimane, Enrique Zuazua
 
 ## **Preprints**
 
+**Perceptrons and localization of attention's mean-field landscape**  
+Antonio Álvarez-López, Borjan Geshkovski, Domènec Ruiz-Balet
+*ArXiv preprint*, 2026
+[ArXiv](https://www.arxiv.org/abs/2601.21366){: .btn}
+[BibTeX](/assets/bibtex/perceptrons.txt){: .btn}
+
+
 **Convergence, design and training of continuous-time dropout as a random batch method**  
 Antonio Álvarez-López, Martín Hernández
 *ArXiv preprint*, 2025  
@@ -60,6 +67,7 @@ Advisors: Alberto Enciso, María Victoria Otero Espinar
 [PDF](https://minerva.usc.gal/rest/api/core/bitstreams/4a12f11d-a015-47bf-84cd-d12f15ef278c/content){: .btn}
 
 ---
+
 
 
 
