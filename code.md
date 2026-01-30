@@ -28,22 +28,22 @@ Interactive visualization tool to explore density evolution under piecewise-line
 
 ## **Research Code**
 
-**Perceptrons and Attention Landscape Localization** Simulation framework for the mean-field dynamics of Transformers as interacting particle systems on the unit sphere. Implements the Wasserstein gradient flow of the coupled Attention-Perceptron energy, demonstrating how the MLP block localizes the landscape and enforces atomic clustering configurations. Includes experiments for support recovery and anti-concentration bounds in high dimensions.  
+**Perceptrons and Attention Landscape Localization** Simulation framework for the mean-field dynamics of Transformers as interacting particle systems on the unit sphere. 
 [GitHub](https://github.com/antonioalvarezl/2026-MLP-Attention-Energy){: .btn}  
 *Paper:* [Perceptrons and Localization of Attention's Mean-Field Landscape](https://www.arxiv.org/abs/2601.21366)
 
 
 **Continuous-time Distribution Modeling for Digital Health**  
-Optimization of a time-dependent Gaussian Mixture Model (GMM) using a Maximum Mean Discrepancy (MMD)-based objective to fix global means and variances, and modeling the continuous evolution of the local mixing weights via Neural Ordinary Differential Equations (Neural ODEs); applications in continuous glucose monitoring.  
+Optimization of a time-dependent Gaussian Mixture Model (GMM) using an MMD-based objective to fix global means and variances, and modeling the continuous evolution of the local mixing weights via neural ODEs.
 [GitHub](https://github.com/antonioalvarezl/2025-EM_MMD){: .btn}  
 *Paper:* [Continuous-time distribution modeling for digital health](https://arxiv.org/pdf/2505.08698)
 
 **Gaussian Mixture Optimization**  
-Comparison framework for evaluating different loss functions (KL divergence, L1, L2) in gradient descent optimization. Supports flexible parameter optimization (means, variances, weights), multiple optimization methods (standard GD, alternating GD, Adam, stage-wise), and generates visualizations and animations of the optimization process.  
+Comparison framework for evaluating different loss functions (KL divergence, L1, L2) in gradient descent optimization.
 [GitHub](https://github.com/antonioalvarezl/2024-LossComparisonGD){: .btn}
 
 **Neural ODE Classification Capacity**  
-Complete implementation of the cluster-based classification approach with Neural ODEs from our paper. Includes synthetic and real-world dataset support (MNIST, CIFAR-10), multiple architectures (inside, outside, bottleneck), visualization tools, and trajectory animations.  
+Classification as linear separability of two classes for pure noise data, to assess the expressivity of neural ODEs.
 [GitHub](https://github.com/antonioalvarezl/2024-WCS-NODEs){: .btn}  
 *Paper:* [Cluster-based classification with neural ODEs via control](https://global-sci.com/index.php/jml/article/view/13212)
 
