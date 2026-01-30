@@ -13,16 +13,14 @@ Python tool to merge multiple `.bib` files into a single, reliable bibliography 
 [GitHub](https://github.com/antonioalvarezl/2026-BibTeX-merger){: .btn}
 
 **ReLU Neural ODE Point Simulator**  
-Interactive demo for exploring the evolution of point clouds under single-unit ReLU Neural ODEs. Includes free exploration, interpolation tracking, and classification modes with separability and cross-entropy metrics.  
+Interactive demo for exploring the evolution of point clouds under single-unit ReLU Neural ODEs. 
 [Live Demo](https://antonioalvarezl.github.io/relu-point-simulator/){: .btn}
 [GitHub](https://github.com/antonioalvarezl/relu-point-simulator){: .btn}  
-*Related papers:* Cluster-based classification with neural ODEs via control (Journal of Machine Learning, 2025) and Interplay between depth and width for interpolation in neural ODEs (Neural Networks, 2024)
 
 **ReLU Flow Simulator**  
-Interactive visualization tool to explore density evolution under piecewise-linear flows driven by a single ReLU unit. Features multi-step composition, supports 1D and 2D, and offers both population (analytical) and empirical (particle-based) views.  
+Interactive visualization tool to explore density evolution under piecewise-linear flows driven by a single ReLU unit.
 [Live Demo](https://antonioalvarezl.github.io/relu-flow-simulator/){: .btn}
 [GitHub](https://github.com/antonioalvarezl/relu-flow-simulator){: .btn}  
-*Related paper:* Constructive approximate transport maps with normalizing flows (Applied Mathematics & Optimization, 2025)
 
 ---
 
