@@ -30,7 +30,7 @@ Interactive visualization tool to explore density evolution under piecewise-line
 
 **Perceptrons and Attention Landscape Localization** Simulation framework for the mean-field dynamics of Transformers as interacting particle systems on the unit sphere. Implements the Wasserstein gradient flow of the coupled Attention-Perceptron energy, demonstrating how the MLP block localizes the landscape and enforces atomic clustering configurations. Includes experiments for support recovery and anti-concentration bounds in high dimensions.  
 [GitHub](https://github.com/antonioalvarezl/2026-MLP-Attention-Energy){: .btn}  
-*Paper:* [Perceptrons and Localization of Attention's Mean-Field Landscape](https://arxiv.org/abs/2501.00000)
+*Paper:* [Perceptrons and Localization of Attention's Mean-Field Landscape](https://www.arxiv.org/abs/2601.21366)
 
 
 **Continuous-time Distribution Modeling for Digital Health**  
