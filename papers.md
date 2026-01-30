@@ -40,13 +40,13 @@ Antonio Álvarez-López, Borjan Geshkovski, Domènec Ruiz-Balet
 
 **Convergence, design and training of continuous-time dropout as a random batch method**  
 Antonio Álvarez-López, Martín Hernández
-*ArXiv preprint*, 2025  
+*ArXiv preprint*, 2025
 [ArXiv](https://arxiv.org/abs/2510.13134){: .btn}
 [BibTeX](/assets/bibtex/dropout.txt){: .btn}
 
 **Continuous temporal learning of probability distributions via Neural ODEs with applications in continuous glucose monitoring data**  
 Antonio Álvarez-López, Marcos Matabuena  
-*ArXiv preprint*, 2025  
+*ArXiv preprint*, 2025
 [ArXiv](https://arxiv.org/abs/2505.08698){: .btn}
 [BibTeX](/assets/bibtex/glucose.txt){: .btn}
 
@@ -67,6 +67,7 @@ Advisors: Alberto Enciso, María Victoria Otero Espinar
 [PDF](https://minerva.usc.gal/rest/api/core/bitstreams/4a12f11d-a015-47bf-84cd-d12f15ef278c/content){: .btn}
 
 ---
+
 
 
 
