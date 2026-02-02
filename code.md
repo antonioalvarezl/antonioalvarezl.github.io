@@ -50,11 +50,8 @@ Classification as linear separability of two classes for pure noise data, to ass
 [GitHub](https://github.com/antonioalvarezl/2024-WCS-NODEs){: .btn}  
 *Paper:* [Cluster-based classification with neural ODEs via control](https://global-sci.com/index.php/jml/article/view/13212)
 
-
 ---
 
-## **Citing this work**
-
-If you use any of these tools in your research or teaching, please cite the relevant papers mentioned above. Full citations are available in the [Publications](/publications) page.
+If you use any of these tools in your research or teaching, please cite the relevant papers mentioned above. Full citations are available in [Papers](/papers).
 
 ---
