@@ -8,6 +8,11 @@ Here are some of my open-source projects and interactive demos. You can find mor
 ---
 ## **Interactive Demos & Tools**
 
+**Neural Network Visualizer**  
+An interactive, browser-based tool for visualizing neural network architectures. Create publication-ready diagrams for MLPs, ResNets, and Neural ODEs.
+[Live Demo](https://antonioalvarezl.github.io/NN-visualizer/){: .btn}
+[GitHub](https://github.com/antonioalvarezl/NN-visualizer){: .btn}
+
 **BibTeX Merger**  
 Python tool to merge multiple `.bib` files into a single, reliable bibliography without losing citation keys (e.g., when preparing a thesis). 
 [GitHub](https://github.com/antonioalvarezl/2026-BibTeX-merger){: .btn}
