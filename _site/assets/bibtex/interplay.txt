@@ -1,9 +1,0 @@
-@article{AlvarezLopez2024Interplay,
-  title   = {Interplay between depth and width for interpolation in neural {ODE}s},
-  author  = {{\'A}lvarez-L{\'o}pez, Antonio and Hadj Slimane, Arselane and Zuazua, Enrique},
-  journal = {Neural Networks},
-  volume  = {180},
-  pages   = {106640},
-  year    = {2024},
-  doi     = {10.1016/j.neunet.2024.106640},
-}

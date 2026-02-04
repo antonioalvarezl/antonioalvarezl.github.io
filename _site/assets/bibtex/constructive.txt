@@ -1,9 +1,0 @@
-@article{AlvarezLopez2025Constructive,
-  title   = {Constructive approximate transport maps with normalizing flows},
-  author  = {{\'A}lvarez-L{\'o}pez, Antonio and Geshkovski, Borjan and Dom{\`e}nec Ruiz-Balet},
-  journal = {Applied Mathematics \& Optimization},
-  volume  = {92},
-  number  = {33},
-  year    = {2025},
-  doi     = {10.1007/s00245-025-10299-7},
-}
