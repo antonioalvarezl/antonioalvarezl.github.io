@@ -687,16 +687,22 @@ td.gutter {
 
 
 
+/* --- Background Personalizado --- */
 body {
-    /* Ajusta la ruta si es necesario */
-    background-image: url("https://antonioalvarezl.github.io/assets/images/buceo.JPG");
-    background-size: cover; /* Para que cubra toda la pantalla */
-    background-position: center; /* Centra la imagen */
-    background-attachment: fixed; /* (Opcional) El fondo se queda fijo al hacer scroll */
+    /* 1. La imagen de fondo */
+    background-image: url("https://antonioalvarezl.github.io/assets/images/buceo.jpg"); 
+    
+    /* 2. Ajustes de posición */
+    background-size: cover;       /* Cubre toda la pantalla */
+    background-position: center;  /* Centrada */
+    background-attachment: fixed; /* Fija al hacer scroll */
     background-repeat: no-repeat;
-}
-
-body {
-    background-color: rgba(255, 255, 255, 0.9); 
+    
+    /* 3. El filtro blanco para leer el texto */
+    /* Si pones 0.9 es casi blanco sólido. 0.7 o 0.8 deja ver más la foto */
+    background-color: rgba(255, 255, 255, 0.80) !important; 
+    
+    /* 4. Mezcla la imagen con el color blanco */
     background-blend-mode: overlay;
+}e: overlay;
 }
