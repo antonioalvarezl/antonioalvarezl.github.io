@@ -9,15 +9,18 @@ You can also browse my <a href="https://scholar.google.com/citations?user=4Xm2yL
 
 ## **Journal Articles**
 
-**Constructive approximate transport maps with normalizing flows** Antonio Álvarez-López, Borjan Geshkovski, Domènec Ruiz-Balet  
+**Constructive approximate transport maps with normalizing flows**<br>
+Antonio Álvarez-López, Borjan Geshkovski, Domènec Ruiz-Balet  
 *Applied Mathematics & Optimization*, Vol. 92, Number 33, 2025  
 [Paper](https://link.springer.com/article/10.1007/s00245-025-10299-7){: .btn} [BibTeX](assets/bibtex/constructive.txt){: .btn}
 
-**Cluster-based classification with neural ODEs via control** Antonio Álvarez-López, Rafael Orive-Illera, Enrique Zuazua  
+**Cluster-based classification with neural ODEs via control**<br>
+Antonio Álvarez-López, Rafael Orive-Illera, Enrique Zuazua  
 *Journal of Machine Learning*, Vol. 4, Iss. 2, pp. 128–156, 2025  
 [Paper](https://journal.global-sci.org/intro/online/read?online_id=2670){: .btn} [BibTeX](assets/bibtex/cluster.txt){: .btn}
 
-**Interplay between depth and width for interpolation in neural ODEs** Antonio Álvarez-López, Arselane Hadj Slimane, Enrique Zuazua  
+**Interplay between depth and width for interpolation in neural ODEs**<br>
+Antonio Álvarez-López, Arselane Hadj Slimane, Enrique Zuazua  
 *Neural Networks*, Vol. 180, 106640, 2024  
 [Paper](https://www.sciencedirect.com/science/article/pii/S0893608024005641){: .btn} [BibTeX](assets/bibtex/interplay.txt){: .btn}
 
@@ -25,15 +28,18 @@ You can also browse my <a href="https://scholar.google.com/citations?user=4Xm2yL
 
 ## **Preprints**
 
-**Perceptrons and localization of attention's mean-field landscape** Antonio Álvarez-López, Borjan Geshkovski, Domènec Ruiz-Balet  
+**Perceptrons and localization of attention's mean-field landscape**<br>
+Antonio Álvarez-López, Borjan Geshkovski, Domènec Ruiz-Balet  
 *ArXiv preprint*, 2026  
 [ArXiv](https://www.arxiv.org/abs/2601.21366){: .btn} [BibTeX](/assets/bibtex/perceptrons.txt){: .btn}
 
-**Convergence, design and training of continuous-time dropout as a random batch method** Antonio Álvarez-López, Martín Hernández  
+**Convergence, design and training of continuous-time dropout as a random batch method**<br>
+Antonio Álvarez-López, Martín Hernández  
 *ArXiv preprint*, 2025  
 [ArXiv](https://arxiv.org/abs/2510.13134){: .btn} [BibTeX](/assets/bibtex/dropout.txt){: .btn}
 
-**Continuous temporal learning of probability distributions via Neural ODEs with applications in continuous glucose monitoring data** Antonio Álvarez-López, Marcos Matabuena  
+**Continuous temporal learning of probability distributions via Neural ODEs with applications in continuous glucose monitoring data**<br>
+Antonio Álvarez-López, Marcos Matabuena  
 *ArXiv preprint*, 2025  
 [ArXiv](https://arxiv.org/abs/2505.08698){: .btn} [BibTeX](/assets/bibtex/glucose.txt){: .btn}
 
