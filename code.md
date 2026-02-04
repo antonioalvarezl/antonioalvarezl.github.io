@@ -3,7 +3,7 @@ layout: page
 title: Code
 ---
 
-<p>Here are some of my open-source projects and interactive demos. You may find more on my <a href="https://github.com/antonioalvarezl" target="_blank">GitHub profile</a>.</p>
+<p class="page-note">Here are some of my open-source projects and interactive demos. You may find more on my <a href="https://github.com/antonioalvarezl" target="_blank">GitHub profile</a>.</p>
 
 <div class="code-grid">
   <section class="code-column">
@@ -125,4 +125,4 @@ title: Code
   </section>
 </div>
 
-<p>If you use any of these tools in your research or teaching, please cite the relevant papers mentioned above. Full citations are available in <a href="/papers">Papers</a>.</p>
+<p class="page-note">If you use any of these tools in your research or teaching, please cite the relevant papers mentioned above. Full citations are available in <a href="/papers">Papers</a>.</p>

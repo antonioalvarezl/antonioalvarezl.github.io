@@ -19,7 +19,7 @@ html {
 
 body {
   font-family: var(--font-sans);
-  font-size: 18px;
+  font-size: 16px;
   color: #404040;
   position: relative;
   background: #FFF;
@@ -35,6 +35,18 @@ p a {
 h1,h2,h3,h4,h5,h6 {
   font-family: var(--font-slab);
   font-weight: 800;
+}
+.container[role="main"] h1 {
+  font-size: 26px;
+}
+.container[role="main"] h2 {
+  font-size: 22px;
+}
+.container[role="main"] h3 {
+  font-size: 19px;
+}
+.container[role="main"] h4 {
+  font-size: 16px;
 }
 .container[role="main"] h2,
 .container[role="main"] h3,
@@ -353,13 +365,13 @@ body.nav-left .page-transition.is-entering {
   font-size: 1.05em;
 }
 .section-subtitle {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 24px;
   margin-bottom: 12px;
 }
 .section-subtitle.section-title,
 .section-title.section-subtitle {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .papers-page {

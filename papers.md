@@ -3,7 +3,7 @@ layout: page
 title: Papers
 ---
 
-You can also browse my <a href="https://scholar.google.com/citations?user=4Xm2yLgAAAAJ" target="_blank">Google Scholar profile</a>, <a href="https://orcid.org/0009-0004-1302-6389" target="_blank">ORCID</a>, or <a href="https://www.researchgate.net/profile/Antonio-Alvarez-Lopez-2" target="_blank">ResearchGate</a>.
+<p class="page-note">You can also browse my <a href="https://scholar.google.com/citations?user=4Xm2yLgAAAAJ" target="_blank">Google Scholar profile</a>, <a href="https://orcid.org/0009-0004-1302-6389" target="_blank">ORCID</a>, or <a href="https://www.researchgate.net/profile/Antonio-Alvarez-Lopez-2" target="_blank">ResearchGate</a>.</p>
 
 <div class="papers-page">
   <div class="papers-grid">
@@ -41,7 +41,7 @@ You can also browse my <a href="https://scholar.google.com/citations?user=4Xm2yL
       <div class="content-card">
         <h3>Perceptrons and localization of attention's mean-field landscape</h3>
         <p>Antonio Álvarez-López, Borjan Geshkovski, Domènec Ruiz-Balet</p>
-        <p><em>ArXiv preprint</em>, 2026</p>
+        <p>ArXiv preprint, 2026</p>
         <a class="btn" href="https://www.arxiv.org/abs/2601.21366">ArXiv</a>
         <a class="btn" href="/assets/bibtex/perceptrons.txt">BibTeX</a>
       </div>
@@ -49,7 +49,7 @@ You can also browse my <a href="https://scholar.google.com/citations?user=4Xm2yL
       <div class="content-card">
         <h3>Convergence, design and training of continuous-time dropout as a random batch method</h3>
         <p>Antonio Álvarez-López, Martín Hernández</p>
-        <p><em>ArXiv preprint</em>, 2025</p>
+        <p>ArXiv preprint, 2025</p>
         <a class="btn" href="https://arxiv.org/abs/2510.13134">ArXiv</a>
         <a class="btn" href="/assets/bibtex/dropout.txt">BibTeX</a>
       </div>
@@ -57,7 +57,7 @@ You can also browse my <a href="https://scholar.google.com/citations?user=4Xm2yL
       <div class="content-card">
         <h3>Continuous temporal learning of probability distributions via Neural ODEs with applications in continuous glucose monitoring data</h3>
         <p>Antonio Álvarez-López, Marcos Matabuena</p>
-        <p><em>ArXiv preprint</em>, 2025</p>
+        <p>ArXiv preprint, 2025</p>
         <a class="btn" href="https://arxiv.org/abs/2505.08698">ArXiv</a>
         <a class="btn" href="/assets/bibtex/glucose.txt">BibTeX</a>
       </div>
