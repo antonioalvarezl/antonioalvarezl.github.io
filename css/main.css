@@ -1191,7 +1191,7 @@ body {
     
     /* 3. El filtro blanco para leer el texto */
     /* Si pones 0.9 es casi blanco sólido. 0.7 o 0.8 deja ver más la foto */
-    background-color: rgba(255, 255, 255, 0.80) !important; 
+    background-color: rgba(255, 255, 255, 0.70) !important; 
     
     /* 4. Mezcla la imagen con el color blanco */
     background-blend-mode: overlay;
