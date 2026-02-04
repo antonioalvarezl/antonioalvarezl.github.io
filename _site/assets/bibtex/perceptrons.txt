@@ -1,0 +1,10 @@
+@article{AlvarezLopez2025Perceptrons,
+  title        = {Convergence, design and training of continuous-time dropout as a random batch method},
+  author       = {{\'A}lvarez-L{\'o}pez, Antonio and Geshkovski, Borjan and Ruiz-Balet, Domènec},
+  journal      = {arXiv preprint arXiv:2601.21366},
+  year         ={2026},
+  eprint       ={2601.21366},
+  archivePrefix={arXiv},
+  primaryClass ={cs.LG},
+  url          ={https://arxiv.org/abs/2601.21366},
+}

@@ -1,0 +1,10 @@
+@article{AlvarezLopez2025Continuous,
+  title        = {Continuous Temporal Learning of Probability Distributions via {Neural ODEs} with Applications in Continuous Glucose Monitoring Data},
+  author       = {{\'A}lvarez-L{\'o}pez, Antonio and Matabuena, Marcos},
+  journal      = {arXiv preprint arXiv:2505.08698},
+  year         = {2025},
+  eprint       = {2505.08698},
+  archivePrefix= {arXiv},
+  primaryClass = {stat.ML},
+  doi          = {10.48550/arXiv.2505.08698},
+}

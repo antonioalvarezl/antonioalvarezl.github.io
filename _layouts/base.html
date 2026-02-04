@@ -6,12 +6,14 @@ common-css:
 common-ext-css:
   - "//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"
 common-googlefonts:
-  - "Lora:400,700,400italic,700italic"
-  - "Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+  - "Roboto:300,400,500,700,900"
+  - "Roboto+Condensed:300,400,700"
+  - "Roboto+Slab:300,400,700"
 common-js:
   - "/js/jquery-1.11.2.min.js"
   - "/js/bootstrap.min.js"
   - "/js/main.js"
+  - "/js/pjax.js"
 ---
 
 <!DOCTYPE html>
@@ -25,7 +27,9 @@ common-js:
   
     {% include nav.html %}
 
-    {{ content }}
+    <main id="swup" class="page-transition">
+      {{ content }}
+    </main>
 
     {% include footer.html %}
   

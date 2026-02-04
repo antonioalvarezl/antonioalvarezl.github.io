@@ -12,28 +12,77 @@
       {% else %}
         <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
       {% endif %}
+      <div class="navbar-social" aria-label="Social links">
+        {% if site.author.github %}
+          <a href="https://github.com/{{ site.author.github }}" title="GitHub" aria-label="GitHub">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+        {% endif %}
+        {% if site.author.linkedin %}
+          <a href="https://linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn" aria-label="LinkedIn">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+        {% endif %}
+        {% if site.author.orcid %}
+          <a href="https://orcid.org/{{ site.author.orcid }}" title="ORCID" aria-label="ORCID">
+            <i class="ai ai-orcid" aria-hidden="true"></i>
+          </a>
+        {% endif %}
+        {% if site.author.google-scholar %}
+          <a href="https://scholar.google.com/citations?user={{ site.author.google-scholar }}" title="Google Scholar" aria-label="Google Scholar">
+            <i class="ai ai-google-scholar" aria-hidden="true"></i>
+          </a>
+        {% endif %}
+        {% if site.author.researchgate %}
+          <a href="https://www.researchgate.net/profile/{{ site.author.researchgate }}" title="ResearchGate" aria-label="ResearchGate">
+            <i class="ai ai-researchgate" aria-hidden="true"></i>
+          </a>
+        {% endif %}
+      </div>
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
       {% for link in site.navbar-links %}
-        {% if link[1].first %}
-          <li class="navlinks-container">
-            <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
-            <div class="navlinks-children">
-              {% for childlink in link[1] %}
-                {% for linkparts in childlink %}
-                  {% include navbarlink.html link=linkparts %}
+        {% if link[0] != 'Blog' %}
+          {% if link[1].first %}
+            <li class="navlinks-container">
+              <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
+              <div class="navlinks-children">
+                {% for childlink in link[1] %}
+                  {% for linkparts in childlink %}
+                    {% include navbarlink.html link=linkparts %}
+                  {% endfor %}
                 {% endfor %}
-              {% endfor %}
-            </div>
-          </li>
-        {% else %}
-          <li>
-            {% include navbarlink.html link=link %}
-          </li>
+              </div>
+            </li>
+          {% else %}
+            <li>
+              {% include navbarlink.html link=link %}
+            </li>
+          {% endif %}
         {% endif %}
-        {% endfor %}
+      {% endfor %}
+      {% for link in site.navbar-links %}
+        {% if link[0] == 'Blog' %}
+          {% if link[1].first %}
+            <li class="navlinks-container nav-item-blog">
+              <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
+              <div class="navlinks-children">
+                {% for childlink in link[1] %}
+                  {% for linkparts in childlink %}
+                    {% include navbarlink.html link=linkparts %}
+                  {% endfor %}
+                {% endfor %}
+              </div>
+            </li>
+          {% else %}
+            <li class="nav-item-blog">
+              {% include navbarlink.html link=link %}
+            </li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
       </ul>
     </div>
 

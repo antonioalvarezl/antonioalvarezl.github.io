@@ -18,13 +18,16 @@ use-site-title: true
 
     /* Diseño de la Caja (Tarjeta) */
     .update-card {
-        background-color: #ffffff; /* Fondo blanco */
-        border: 1px solid #e1e4e8; /* Borde gris suave */
+        background-color: var(--card-bg); /* Fondo semitransparente */
+        border: 1px solid var(--card-border); /* Borde gris suave */
         border-radius: 8px; /* Bordes redondeados */
         padding: 15px; /* Espacio interior */
         margin-bottom: 15px; /* Espacio entre cajas */
-        box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Sombra suave */
+        box-shadow: var(--card-shadow); /* Sombra suave */
         transition: transform 0.2s ease, box-shadow 0.2s ease;
+        -webkit-backdrop-filter: blur(2px);
+        backdrop-filter: blur(2px);
+        text-align: justify;
     }
 
     /* Efecto al pasar el ratón por encima */
@@ -48,20 +51,38 @@ use-site-title: true
     }
 </style>
 
-<br>I am a PhD student at <a href="https://www.uam.es/UAM/Home.htm?language=en">Universidad Autónoma de Madrid</a> (affiliated with <a href="https://www.icmat.es/en/">Instituto de Ciencias Matemáticas</a>) and <a href="https://www.fau.eu/">Friedrich-Alexander-Universität Erlangen-Nürnberg</a>. My research focuses on the mathematical foundations of machine learning, specifically on the analysis and control of continuous-time neural network architectures such as neural ODEs and flow-based generative models.<br><br>
-<p>
-Currently, I am visiting my PhD advisor <a href="https://dcn.nat.fau.eu/enrique-zuazua/">Prof. Enrique Zuazua</a> at <a href="https://www.fau.eu/">Friedrich-Alexander-Universität Erlangen-Nürnberg</a>, following a very fruitful research stay at the <a href="https://www.nus.edu.sg/">National University of Singapore</a> (August – November 2025), where I worked with <a href="https://blog.nus.edu.sg/qianxiaoli/">Prof. Qianxiao Li</a> on advanced topics in machine learning theory.
-</p>
+<h2 class="section-title section-subtitle">Bio</h2>
+<div class="bio-card">
+    <p>
+        I am a PhD student at <a href="https://www.uam.es/UAM/Home.htm?language=en">Universidad Autónoma de Madrid</a>
+        (affiliated with <a href="https://www.icmat.es/en/">Instituto de Ciencias Matemáticas</a>) and
+        <a href="https://www.fau.eu/">Friedrich-Alexander-Universität Erlangen-Nürnberg</a>. My research focuses on the
+        mathematical foundations of machine learning, specifically on the analysis and control of continuous-time neural
+        network architectures such as neural ODEs and flow-based generative models.
+    </p>
+    <p>
+        Currently, I am visiting my PhD advisor <a href="https://dcn.nat.fau.eu/enrique-zuazua/">Prof. Enrique Zuazua</a>
+        at <a href="https://www.fau.eu/">Friedrich-Alexander-Universität Erlangen-Nürnberg</a>, following a very fruitful
+        research stay at the <a href="https://www.nus.edu.sg/">National University of Singapore</a> (August – November
+        2025), where I worked with <a href="https://blog.nus.edu.sg/qianxiaoli/">Prof. Qianxiao Li</a> on advanced topics
+        in machine learning theory.
+    </p>
+</div>
 
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
-<b>Updates:</b><br><br>
+<h2 class="section-title section-subtitle">Updates</h2>
 
 <ul class="update-list">
 
     <li class="update-card">
+        <span class="update-date">February 2026</span>
+        I spent a free moment while working on my thesis to iterate a bit more on my website's design.
+    </li>
+
+    <li class="update-card">
         <span class="update-date">February 2025</span>
-        To give myself a hand with my thesis, I built a couple of tools: one for merging different BibTeX files (<a href="https://github.com/antonioalvarezl/2026-BibTeX-merger">see here</a>) and a visualizer for neural networks such as MLPs and ResNets (<a href="https://antonioalvarezl.github.io/NN-visualizer/">see here</a>).
+        To give myself a hand with my thesis, I built a couple of tools: one for merging different BibTeX files (<a href="https://github.com/antonioalvarezl/2026-BibTeX-merger">see here</a>) and a visualizer for MLPs and ResNets (<a href="https://antonioalvarezl.github.io/NN-visualizer/">see here</a>).
     </li>
 
     <li class="update-card">

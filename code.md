@@ -3,55 +3,126 @@ layout: page
 title: Code
 ---
 
-Here are some of my open-source projects and interactive demos. You can find more on my <a href="https://github.com/antonioalvarezl" target="_blank">GitHub profile</a>.
+<p>Here are some of my open-source projects and interactive demos. You may find more on my <a href="https://github.com/antonioalvarezl" target="_blank">GitHub profile</a>.</p>
 
----
-## **Interactive Demos & Tools**
+<div class="code-grid">
+  <section class="code-column">
+    <h3 class="section-title section-subtitle">Interactive Demos &amp; Tools</h3>
 
-**Neural Network Visualizer**  
-An interactive, browser-based tool for visualizing neural network architectures. Create publication-ready diagrams for MLPs, ResNets, and Neural ODEs.
-[Live Demo](https://antonioalvarezl.github.io/NN-visualizer/){: .btn}
-[GitHub](https://github.com/antonioalvarezl/NN-visualizer){: .btn}
+    <div class="content-card code-card">
+      <h3>Neural Network Visualizer</h3>
+      <div class="card-media">
+        <a class="card-media-link" href="https://antonioalvarezl.github.io/NN-visualizer/">
+          <img src="/assets/images/code/nn-visualizer.png" alt="Neural Network Visualizer preview">
+        </a>
+      </div>
+      <p>An interactive, browser-based tool for visualizing neural network architectures. Create publication-ready diagrams for MLPs and ResNets.</p>
+      <div class="code-links">
+        <a class="btn" href="https://antonioalvarezl.github.io/NN-visualizer/">Live Demo</a>
+        <a class="btn" href="https://github.com/antonioalvarezl/NN-visualizer">GitHub</a>
+      </div>
+    </div>
 
-**BibTeX Merger**  
-Python tool to merge multiple `.bib` files into a single, reliable bibliography without losing citation keys (e.g., when preparing a thesis). 
-[GitHub](https://github.com/antonioalvarezl/2026-BibTeX-merger){: .btn}
+    <div class="content-card code-card">
+      <h3>BibTeX Merger</h3>
+      <div class="card-media">
+        <a class="card-media-link" href="https://github.com/antonioalvarezl/2026-BibTeX-merger">
+          <img src="/assets/images/code/bibtex-merger.png" alt="BibTeX Merger preview">
+        </a>
+      </div>
+      <p>Python tool to merge multiple <code>.bib</code> files into a single bibliography without losing citation keys (e.g., when preparing a thesis).</p>
+      <div class="code-links">
+        <a class="btn" href="https://github.com/antonioalvarezl/2026-BibTeX-merger">GitHub</a>
+      </div>
+    </div>
 
-**ReLU Neural ODE Point Simulator**  
-Interactive demo for exploring the evolution of point clouds under single-unit ReLU Neural ODEs. 
-[Live Demo](https://antonioalvarezl.github.io/relu-point-simulator/){: .btn}
-[GitHub](https://github.com/antonioalvarezl/relu-point-simulator){: .btn}  
+    <div class="content-card code-card">
+      <h3>ReLU Neural ODE Point Simulator</h3>
+      <div class="card-media">
+        <a class="card-media-link" href="https://antonioalvarezl.github.io/relu-point-simulator/">
+          <img src="/assets/images/code/relu-point-simulator.gif" alt="ReLU Neural ODE Point Simulator preview">
+        </a>
+      </div>
+      <p>Interactive demo for simulating the evolution of point clouds under a piecewise-constant perceptron field.</p>
+      <div class="code-links">
+        <a class="btn" href="https://antonioalvarezl.github.io/relu-point-simulator/">Live Demo</a>
+        <a class="btn" href="https://github.com/antonioalvarezl/relu-point-simulator">GitHub</a>
+      </div>
+    </div>
 
-**ReLU Flow Simulator**  
-Interactive visualization tool to explore density evolution under piecewise-linear flows driven by a single ReLU unit.
-[Live Demo](https://antonioalvarezl.github.io/relu-flow-simulator/){: .btn}
-[GitHub](https://github.com/antonioalvarezl/relu-flow-simulator){: .btn}  
+    <div class="content-card code-card">
+      <h3>ReLU Flow Simulator</h3>
+      <div class="card-media">
+        <a class="card-media-link" href="https://antonioalvarezl.github.io/relu-flow-simulator/">
+          <img src="/assets/images/code/relu-flow-simulator.gif" alt="ReLU Flow Simulator preview">
+        </a>
+      </div>
+      <p>Interactive visualization tool to simulate density evolution under a piecewise-constant perceptron field.</p>
+      <div class="code-links">
+        <a class="btn" href="https://antonioalvarezl.github.io/relu-flow-simulator/">Live Demo</a>
+        <a class="btn" href="https://github.com/antonioalvarezl/relu-flow-simulator">GitHub</a>
+      </div>
+    </div>
+  </section>
 
----
+  <section class="code-column">
+    <h3 class="section-title section-subtitle">Research Code</h3>
 
-## **Research Code**
+    <div class="content-card code-card">
+      <h3>Perceptrons and Attention Landscape Localization</h3>
+      <div class="card-media">
+        <a class="card-media-link" href="https://github.com/antonioalvarezl/2026-MLP-Attention-Energy">
+          <img src="/assets/images/code/perceptrons-attention.gif" alt="Perceptrons and Attention Landscape preview">
+        </a>
+      </div>
+      <p>Simulation framework for the mean-field dynamics of Transformers as interacting particle systems on the unit sphere.</p>
+      <div class="code-links">
+        <a class="btn" href="https://github.com/antonioalvarezl/2026-MLP-Attention-Energy">GitHub</a>
+        <a class="btn" href="https://www.arxiv.org/abs/2601.21366">Paper</a>
+      </div>
+    </div>
 
-**Perceptrons and Attention Landscape Localization** Simulation framework for the mean-field dynamics of Transformers as interacting particle systems on the unit sphere. 
-[GitHub](https://github.com/antonioalvarezl/2026-MLP-Attention-Energy){: .btn}  
-*Paper:* [Perceptrons and Localization of Attention's Mean-Field Landscape](https://www.arxiv.org/abs/2601.21366)
+    <div class="content-card code-card">
+      <h3>Continuous-time Distribution Modeling for Digital Health</h3>
+      <div class="card-media">
+        <a class="card-media-link" href="https://github.com/antonioalvarezl/2025-EM_MMD">
+          <img src="/assets/images/code/digital-health.gif" alt="Continuous-time Distribution Modeling preview">
+        </a>
+      </div>
+      <p>Optimization of a time-dependent Gaussian mixture using MMD fitting for means/covariances + neural ODEs for the weights evolution.</p>
+      <div class="code-links">
+        <a class="btn" href="https://github.com/antonioalvarezl/2025-EM_MMD">GitHub</a>
+        <a class="btn" href="https://arxiv.org/pdf/2505.08698">Paper</a>
+      </div>
+    </div>
 
+    <div class="content-card code-card">
+      <h3>Gaussian Mixture Optimization</h3>
+      <div class="card-media">
+        <a class="card-media-link" href="https://github.com/antonioalvarezl/2024-LossComparisonGD">
+          <img src="/assets/images/code/gmm-optimization.gif" alt="Gaussian Mixture Optimization preview">
+        </a>
+      </div>
+      <p>Comparison framework for evaluating different loss functions (KL, L1, L2) in gradient descent optimization of mixtures.</p>
+      <div class="code-links">
+        <a class="btn" href="https://github.com/antonioalvarezl/2024-LossComparisonGD">GitHub</a>
+      </div>
+    </div>
 
-**Continuous-time Distribution Modeling for Digital Health**  
-Optimization of a time-dependent Gaussian Mixture Model (GMM) using an MMD-based objective to fix global means and variances, and modeling the continuous evolution of the local mixing weights via neural ODEs.
-[GitHub](https://github.com/antonioalvarezl/2025-EM_MMD){: .btn}  
-*Paper:* [Continuous-time distribution modeling for digital health](https://arxiv.org/pdf/2505.08698)
+    <div class="content-card code-card">
+      <h3>Neural ODE Classification Capacity</h3>
+      <div class="card-media">
+        <a class="card-media-link" href="https://github.com/antonioalvarezl/2024-WCS-NODEs">
+          <img src="/assets/images/code/node-classification.gif" alt="Neural ODE Classification Capacity preview">
+        </a>
+      </div>
+      <p>Classification as linear separability of two classes for pure noise data, to assess the expressivity of neural ODEs.</p>
+      <div class="code-links">
+        <a class="btn" href="https://github.com/antonioalvarezl/2024-WCS-NODEs">GitHub</a>
+        <a class="btn" href="https://global-sci.com/index.php/jml/article/view/13212">Paper</a>
+      </div>
+    </div>
+  </section>
+</div>
 
-**Gaussian Mixture Optimization**  
-Comparison framework for evaluating different loss functions (KL divergence, L1, L2) in gradient descent optimization.
-[GitHub](https://github.com/antonioalvarezl/2024-LossComparisonGD){: .btn}
-
-**Neural ODE Classification Capacity**  
-Classification as linear separability of two classes for pure noise data, to assess the expressivity of neural ODEs.
-[GitHub](https://github.com/antonioalvarezl/2024-WCS-NODEs){: .btn}  
-*Paper:* [Cluster-based classification with neural ODEs via control](https://global-sci.com/index.php/jml/article/view/13212)
-
----
-
-If you use any of these tools in your research or teaching, please cite the relevant papers mentioned above. Full citations are available in [Papers](/papers).
-
----
+<p>If you use any of these tools in your research or teaching, please cite the relevant papers mentioned above. Full citations are available in <a href="/papers">Papers</a>.</p>

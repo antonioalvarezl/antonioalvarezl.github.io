@@ -30,6 +30,8 @@
   {% endfor %}
   {% endif %}
 
+  <link rel="preload" as="image" href="{{ '/assets/images/buceo.JPG' | prepend: site.baseurl | replace: '//', '/' }}" />
+
   {% if layout.common-googlefonts %}
   {% for font in layout.common-googlefonts %}
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
@@ -136,5 +138,20 @@
 
 
   <meta name="theme-color" content="#ffffff">
+
+  <style>
+    html {
+      background-color: #cfd8e3;
+    }
+    body {
+      background-image: url("{{ '/assets/images/buceo.JPG' | prepend: site.baseurl | replace: '//', '/' }}");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-color: rgba(255, 255, 255, 0.8);
+      background-blend-mode: overlay;
+    }
+  </style>
 
 </head>
