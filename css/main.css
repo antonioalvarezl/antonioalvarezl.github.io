@@ -1074,7 +1074,7 @@ td.gutter {
 /* --- Background Personalizado --- */
 body {
     /* 1. La imagen de fondo */
-    background-image: url("/assets/images/buceo.JPG"); 
+    background-image: url("/assets/images/buceo.jpg"); 
     
     /* 2. Ajustes de posición */
     background-size: cover;       /* Cubre toda la pantalla */
