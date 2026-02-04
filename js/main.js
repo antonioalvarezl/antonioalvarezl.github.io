@@ -34,6 +34,16 @@ var main = {
         }
       });
     });
+
+    // On mobile, collapse the navbar after selecting a link
+    $('#main-navbar').on("click", "a", function(e) {
+      if ($(this).hasClass("navlinks-parent")) {
+        return;
+      }
+      if ($(".navbar-toggle").is(":visible")) {
+        $("#main-navbar").collapse("hide");
+      }
+    });
     
     // Ensure nested navbar menus are not longer than the menu header
     var menus = $(".navlinks-container");
