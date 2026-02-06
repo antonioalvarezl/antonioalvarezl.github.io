@@ -1,3 +1,4 @@
+{% assign home_href = '/' | prepend: site.baseurl | replace: '//', '/' %}
 <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -8,9 +9,9 @@
         <span class="icon-bar"></span>
       </button>
       {% if site.title-img %}
-        <a class="navbar-brand navbar-brand-logo" href="{{ site.url }}"><img src="{{ site.title-img }}"/></a>
+        <a class="navbar-brand navbar-brand-logo" href="{{ home_href }}"><img src="{{ site.title-img }}"/></a>
       {% else %}
-        <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
+        <a class="navbar-brand" href="{{ home_href }}">{{ site.title }}</a>
       {% endif %}
       <div class="navbar-social" aria-label="Social links">
         {% if site.author.github %}
@@ -38,13 +39,19 @@
             <i class="ai ai-researchgate" aria-hidden="true"></i>
           </a>
         {% endif %}
+        <a href="{{ '/location/' | prepend: site.baseurl | replace: '//', '/' }}" title="Location" aria-label="Location" data-nav-index="-3" data-location-link="true">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+        </a>
+        <a href="{{ '/contact/' | prepend: site.baseurl | replace: '//', '/' }}" title="Contact" aria-label="Contact" data-nav-index="-2">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </a>
       </div>
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
       {% for link in site.navbar-links %}
-        {% if link[0] != 'Blog' %}
+        {% if link[0] != 'Blog' and link[0] != 'Home' %}
           {% if link[1].first %}
             <li class="navlinks-container">
               <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
@@ -89,7 +96,10 @@
 	{% if page.image and (layout.show-avatar or page.show-avatar) %}
 	<div class="avatar-container">
 	  <div class="avatar-img-border">
-	    <a href="{{ site.url }} ">
+	    <a class="avatar-home-link" href="{{ home_href }}" aria-label="Home" data-nav-index="-1">
+          <span class="avatar-home-icon" aria-hidden="true">
+            <i class="fa fa-home"></i>
+          </span>
 	      <img class="avatar-img" src="{{ page.image | prepend: site.baseurl | replace: '//', '/' }}" />
 		</a>
 	  </div>
@@ -97,12 +107,19 @@
 	{% elsif site.avatar and (layout.show-avatar or page.show-avatar) %}
 	<div class="avatar-container">
 	  <div class="avatar-img-border">
-	    <a href="{{ site.url }} ">
+	    <a class="avatar-home-link" href="{{ home_href }}" aria-label="Home" data-nav-index="-1">
+          <span class="avatar-home-icon" aria-hidden="true">
+            <i class="fa fa-home"></i>
+          </span>
 	      <img class="avatar-img" src="{{ site.avatar | prepend: site.baseurl | replace: '//', '/' }}" />
 		</a>
 	  </div>
 	</div>
 	{% endif %}
+
+  <a class="navbar-location-home" href="{{ home_href }}" aria-label="Home" data-nav-index="-1">
+    <span class="navbar-location-home-icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+  </a>
 
   </div>
 </nav>

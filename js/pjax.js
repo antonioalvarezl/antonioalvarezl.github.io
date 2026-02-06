@@ -5,7 +5,7 @@
   }
 
   const navRootSelector = '.navbar-nav.navbar-right';
-  const navLinkSelector = '.navbar-nav.navbar-right a, .navbar-brand';
+  const navLinkSelector = '.navbar-nav.navbar-right a, .navbar-brand, .navbar-social a, .navbar-location-home, .avatar-home-link';
 
   const normalizePath = (url) => {
     const parsed = new URL(url, window.location.origin);
@@ -24,6 +24,14 @@
     if (brand) {
       brand.dataset.navIndex = brand.dataset.navIndex || '-1';
     }
+    const homeBadge = document.querySelector('.navbar-location-home');
+    if (homeBadge) {
+      homeBadge.dataset.navIndex = homeBadge.dataset.navIndex || '-1';
+    }
+    const avatarHomeLinks = Array.from(document.querySelectorAll('.avatar-home-link'));
+    avatarHomeLinks.forEach((a) => {
+      a.dataset.navIndex = a.dataset.navIndex || '-1';
+    });
   };
 
   const getNavIndexForUrl = (url) => {
@@ -63,6 +71,9 @@
   };
 
   const runPostReplaceHooks = () => {
+    if (window.main && typeof window.main.syncPageState === 'function') {
+      window.main.syncPageState();
+    }
     if (window.main && typeof window.main.initImgs === 'function') {
       window.main.initImgs();
     }
@@ -74,6 +85,15 @@
   const transitionTo = async (url, targetIndex, pushState) => {
     if (isTransitioning) return;
     isTransitioning = true;
+
+    if (window.main && typeof window.main.syncPageState === 'function') {
+      const homeLink = document.querySelector('.navbar-brand');
+      const homePath = normalizePath(homeLink ? homeLink.href : '/');
+      const targetPath = normalizePath(url);
+      if (targetPath !== homePath) {
+        window.main.syncPageState(url);
+      }
+    }
 
     setDirectionClass(targetIndex);
     document.body.classList.add('is-transitioning');

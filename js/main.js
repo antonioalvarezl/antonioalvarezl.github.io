@@ -7,13 +7,15 @@ var main = {
 
   init : function() {
     // Shorten the navbar after scrolling a little bit down
-    $(window).scroll(function() {
-        if ($(".navbar").offset().top > 50) {
-            $(".navbar").addClass("top-nav-short");
-        } else {
-            $(".navbar").removeClass("top-nav-short");
-        }
-    });
+    var syncNavbarScrollState = function() {
+      if ($(".navbar").offset().top > 50) {
+        $(".navbar").addClass("top-nav-short");
+      } else {
+        $(".navbar").removeClass("top-nav-short");
+      }
+    };
+    $(window).scroll(syncNavbarScrollState);
+    syncNavbarScrollState();
     
     // On mobile, hide the avatar when expanding the navbar menu
     $('#main-navbar').on('show.bs.collapse', function () {
@@ -71,9 +73,55 @@ var main = {
 
       fakeMenu.remove();
     }        
-    
+
+    main.syncPageState();
+    main.bindLocationCardReset();
+
     // show the big header image	
     main.initImgs();
+  },
+
+  syncPageState : function(targetUrl) {
+    var normalizePath = function(pathname) {
+      var normalized = (pathname || "").replace(/\/+$/, "");
+      return normalized.length ? normalized : "/";
+    };
+
+    var parsePathFromUrl = function(url) {
+      try {
+        return normalizePath(new URL(url, window.location.origin).pathname);
+      } catch (err) {
+        return normalizePath(url);
+      }
+    };
+
+    var homeLink = $(".navbar-brand").attr("href") || "/";
+    var homePath = parsePathFromUrl(homeLink);
+
+    var locationLink = $(".navbar-social a[data-location-link]").attr("href") || "/location/";
+    var locationPath = parsePathFromUrl(locationLink);
+
+    var currentPath = targetUrl ? parsePathFromUrl(targetUrl) : normalizePath(window.location.pathname);
+    $("body").toggleClass("on-home-page", currentPath === homePath);
+    $("body").toggleClass("location-mode", currentPath === locationPath);
+    $("body").addClass("page-state-ready");
+  },
+
+  bindLocationCardReset : function() {
+    $(document).off("click.locationReset", ".location-address-card");
+    $(document).on("click.locationReset", ".location-address-card", function() {
+      var iframe = $(".location-map-canvas iframe").first();
+      if (!iframe.length) {
+        return;
+      }
+
+      var initialSrc = iframe.attr("data-initial-src") || iframe.attr("src");
+      if (!initialSrc) {
+        return;
+      }
+
+      iframe.attr("src", initialSrc);
+    });
   },
   
   initImgs : function() {
