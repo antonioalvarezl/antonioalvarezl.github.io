@@ -76,6 +76,7 @@ var main = {
 
     main.syncPageState();
     main.bindLocationCardReset();
+    main.bindContactEmailCopy();
 
     // show the big header image	
     main.initImgs();
@@ -121,6 +122,82 @@ var main = {
       }
 
       iframe.attr("src", initialSrc);
+    });
+  },
+
+  bindContactEmailCopy : function() {
+    var fallbackCopyText = function(text) {
+      var textarea = $("<textarea></textarea>");
+      textarea.val(text).css({
+        position: "fixed",
+        top: "-9999px",
+        left: "-9999px",
+        opacity: "0"
+      });
+      $("body").append(textarea);
+      textarea.trigger("focus").trigger("select");
+
+      var copied = false;
+      try {
+        copied = document.execCommand("copy");
+      } catch (err) {
+        copied = false;
+      }
+
+      textarea.remove();
+      return copied;
+    };
+
+    var showCopyResult = function(button, feedback, success) {
+      var timer = button.data("copyTimer");
+      if (timer) {
+        clearTimeout(timer);
+      }
+
+      if (success) {
+        button.addClass("is-copied").text("Copied");
+        if (feedback.length) {
+          feedback.removeClass("is-error").text("Email copied to clipboard");
+        }
+      } else {
+        button.removeClass("is-copied").text("Retry");
+        if (feedback.length) {
+          feedback.addClass("is-error").text("Could not copy automatically");
+        }
+      }
+
+      timer = setTimeout(function() {
+        button.removeClass("is-copied").text("Copy");
+        if (feedback.length) {
+          feedback.removeClass("is-error").text("");
+        }
+      }, success ? 1600 : 2200);
+
+      button.data("copyTimer", timer);
+    };
+
+    $(document).off("click.contactCopy", ".contact-copy-btn");
+    $(document).on("click.contactCopy", ".contact-copy-btn", function() {
+      var button = $(this);
+      var textToCopy = (button.attr("data-copy-text") || "").trim();
+      var card = button.closest(".contact-email-card");
+      var feedback = card.find(".contact-copy-feedback").first();
+
+      if (!textToCopy) {
+        showCopyResult(button, feedback, false);
+        return;
+      }
+
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(textToCopy).then(function() {
+          showCopyResult(button, feedback, true);
+        }).catch(function() {
+          showCopyResult(button, feedback, fallbackCopyText(textToCopy));
+        });
+        return;
+      }
+
+      showCopyResult(button, feedback, fallbackCopyText(textToCopy));
     });
   },
   
