@@ -3,7 +3,7 @@ layout: page
 title: Papers
 ---
 
-<p class="page-note">You can also browse my <a href="https://scholar.google.com/citations?user=4Xm2yLgAAAAJ" target="_blank">Google Scholar profile</a>
+<p class="page-note" style="text-align: center;">You can also browse my <a href="https://scholar.google.com/citations?user=4Xm2yLgAAAAJ" target="_blank">Google Scholar profile</a></p>
 
 <div class="papers-page">
   <div class="papers-grid">
@@ -95,7 +95,7 @@ title: Papers
     <div class="papers-thesis-grid">
       <div class="content-card">
         <h3>(Maths)</h3>
-        <p><strong>Title:</strong> Ecuaciones de Euler de fluidos incompresibles</p>
+        <p><strong>Ecuaciones de Euler de fluidos incompresibles</strong></p>
         <p><strong>Advisors:</strong> María Victoria Otero Espinar, Alberto Enciso Carrasco</p>
         <p>Universidad de Santiago de Compostela, 2021</p>
         <p class="link-pair">
@@ -104,7 +104,7 @@ title: Papers
       </div>
       <div class="content-card">
         <h3>(Physics)</h3>
-        <p><strong>Title:</strong> Correlation and critical ballasting of coupled superconducting quantum states</p>
+        <p><strong>Correlation and critical ballasting of coupled superconducting quantum states</strong></p>
         <p><strong>Advisor:</strong> Manuel Vázquez Ramallo</p>
         <p>Universidad de Santiago de Compostela, 2021</p>
         <p class="link-pair">
