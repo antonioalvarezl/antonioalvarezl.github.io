@@ -3,7 +3,7 @@ layout: page
 title: Code
 ---
 
-<p class="page-note">Here are some of my open-source projects and interactive demos. You may find more on my <a href="https://github.com/antonioalvarezl" target="_blank">GitHub profile</a>.</p>
+<p class="page-note">Here are some of my open-source projects and interactive demos. If you use any of these tools in your research or teaching, please cite the related papers (full citations in <a href="/papers">Papers</a>). For any questions, feel free to reach out via <a href="/contact">Contact</a>. You may find more on my <a href="https://github.com/antonioalvarezl" target="_blank">GitHub profile</a>.</p>
 
 <div class="code-grid">
   <section class="code-column">
@@ -17,9 +17,9 @@ title: Code
         </a>
       </div>
       <p>An interactive, browser-based tool for visualizing neural network architectures. Create publication-ready diagrams for MLPs and ResNets.</p>
-      <div class="code-links">
-        <a class="btn" href="https://antonioalvarezl.github.io/NN-visualizer/">Live Demo</a>
-        <a class="btn" href="https://github.com/antonioalvarezl/NN-visualizer">GitHub</a>
+      <div class="code-links link-pair">
+        <a href="https://antonioalvarezl.github.io/NN-visualizer/">Live Demo</a>
+        <a href="https://github.com/antonioalvarezl/NN-visualizer">GitHub</a>
       </div>
     </div>
 
@@ -44,9 +44,9 @@ title: Code
         </a>
       </div>
       <p>Interactive demo for simulating the evolution of point clouds under a piecewise-constant perceptron field.</p>
-      <div class="code-links">
-        <a class="btn" href="https://antonioalvarezl.github.io/relu-point-simulator/">Live Demo</a>
-        <a class="btn" href="https://github.com/antonioalvarezl/relu-point-simulator">GitHub</a>
+      <div class="code-links link-pair">
+        <a href="https://antonioalvarezl.github.io/relu-point-simulator/">Live Demo</a>
+        <a href="https://github.com/antonioalvarezl/relu-point-simulator">GitHub</a>
       </div>
     </div>
 
@@ -58,9 +58,9 @@ title: Code
         </a>
       </div>
       <p>Interactive visualization tool to simulate density evolution under a piecewise-constant perceptron field.</p>
-      <div class="code-links">
-        <a class="btn" href="https://antonioalvarezl.github.io/relu-flow-simulator/">Live Demo</a>
-        <a class="btn" href="https://github.com/antonioalvarezl/relu-flow-simulator">GitHub</a>
+      <div class="code-links link-pair">
+        <a href="https://antonioalvarezl.github.io/relu-flow-simulator/">Live Demo</a>
+        <a href="https://github.com/antonioalvarezl/relu-flow-simulator">GitHub</a>
       </div>
     </div>
   </section>
@@ -76,9 +76,9 @@ title: Code
         </a>
       </div>
       <p>Simulation framework for the mean-field dynamics of Transformers as interacting particle systems on the unit sphere.</p>
-      <div class="code-links">
-        <a class="btn" href="https://github.com/antonioalvarezl/2026-MLP-Attention-Energy">GitHub</a>
-        <a class="btn" href="https://www.arxiv.org/abs/2601.21366">Paper</a>
+      <div class="code-links link-pair">
+        <a href="https://github.com/antonioalvarezl/2026-MLP-Attention-Energy">GitHub</a>
+        <a href="https://www.arxiv.org/abs/2601.21366">Paper</a>
       </div>
     </div>
 
@@ -90,9 +90,9 @@ title: Code
         </a>
       </div>
       <p>This work frames continuous-time dropout as a random batch method (RBM). At each time interval of length h a random subset of neurons is sampled and the output is rescaled to keep the estimator unbiased.</p>
-      <div class="code-links">
-        <a class="btn" href="https://github.com/antonioalvarezl/2026-CTDropout-RBM/tree/main">GitHub</a>
-        <a class="btn" href="https://arxiv.org/abs/2510.13134">Paper</a>
+      <div class="code-links link-pair">
+        <a href="https://github.com/antonioalvarezl/2026-CTDropout-RBM/tree/main">GitHub</a>
+        <a href="https://arxiv.org/abs/2510.13134">Paper</a>
       </div>
     </div>
 
@@ -104,9 +104,9 @@ title: Code
         </a>
       </div>
       <p>Optimization of a time-dependent Gaussian mixture using MMD fitting for means/covariances + neural ODEs for the weights evolution.</p>
-      <div class="code-links">
-        <a class="btn" href="https://github.com/antonioalvarezl/2025-EM_MMD">GitHub</a>
-        <a class="btn" href="https://arxiv.org/pdf/2505.08698">Paper</a>
+      <div class="code-links link-pair">
+        <a href="https://github.com/antonioalvarezl/2025-EM_MMD">GitHub</a>
+        <a href="https://arxiv.org/pdf/2505.08698">Paper</a>
       </div>
     </div>
 
@@ -131,12 +131,10 @@ title: Code
         </a>
       </div>
       <p>Classification as linear separability of two classes for pure noise data, to assess the expressivity of neural ODEs.</p>
-      <div class="code-links">
-        <a class="btn" href="https://github.com/antonioalvarezl/2024-WCS-NODEs">GitHub</a>
-        <a class="btn" href="https://global-sci.com/index.php/jml/article/view/13212">Paper</a>
+      <div class="code-links link-pair">
+        <a href="https://github.com/antonioalvarezl/2024-WCS-NODEs">GitHub</a>
+        <a href="https://global-sci.com/index.php/jml/article/view/13212">Paper</a>
       </div>
     </div>
   </section>
 </div>
-
-<p class="page-note">If you use any of these tools in your research or teaching, please cite the relevant papers mentioned above. Full citations are available in <a href="/papers">Papers</a>.</p>

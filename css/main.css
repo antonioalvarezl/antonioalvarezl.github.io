@@ -175,6 +175,19 @@ hr.small {
 .content-card .btn {
   margin: 6px 6px 0 0;
 }
+.link-pair {
+  margin: 8px 0 0;
+  text-align: center;
+}
+.link-pair a {
+  display: inline;
+  font-weight: 600;
+}
+.link-pair a + a::before {
+  content: " | ";
+  color: #6a6a6a;
+  font-weight: 400;
+}
 .teaching-list {
   margin: 0;
   display: flex;
@@ -447,13 +460,13 @@ body.nav-left .page-transition.is-entering {
   font-size: 0.9em;
 }
 .content-card.code-card h3 {
-  font-size: 0.87em;
-  line-height: 1.3;
-  margin: 0 0 3px;
+  font-size: 1em;
+  line-height: 1.4;
+  margin: 0 0 6px;
 }
 .code-card p {
-  font-size: 0.85em;
-  line-height: 1.45;
+  font-size: 1em;
+  line-height: 1.5;
   margin: 6px 0;
 }
 .code-links {
@@ -464,6 +477,9 @@ body.nav-left .page-transition.is-entering {
   margin-top: 8px;
   justify-content: center;
   flex-wrap: wrap;
+}
+.code-links.link-pair {
+  display: block;
 }
 .code-links .btn {
   margin: 0;
@@ -477,6 +493,8 @@ body.nav-left .page-transition.is-entering {
 .code-card .card-media-link {
   display: block;
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 .code-card .card-media img {
   width: 100%;
@@ -485,6 +503,17 @@ body.nav-left .page-transition.is-entering {
   border: 1px solid var(--card-border);
   box-shadow: var(--card-shadow);
   background: rgba(255, 255, 255, 0.6);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transform-origin: center bottom;
+}
+.code-card .card-media-link:hover img[src$=".gif"],
+.code-card .card-media-link:focus img[src$=".gif"] {
+  transform: translateY(6px) scale(1.18);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.85);
+}
+.code-card .card-media-link:hover,
+.code-card .card-media-link:focus {
+  z-index: 3;
 }
 @media only screen and (max-width: 767px) {
   .code-card {
@@ -551,18 +580,18 @@ body.nav-left .page-transition.is-entering {
 }
 
 .papers-page .content-card {
-  padding: 7px 9px;
+  padding: 10px 12px;
   margin-bottom: 0;
-  font-size: 0.78em;
-  line-height: 1.3;
+  font-size: 0.9em;
+  line-height: 1.5;
 }
 .papers-page .content-card h3 {
-  margin: 0 0 3px;
+  margin: 0 0 6px;
   font-size: 1em;
-  line-height: 1.3;
+  line-height: 1.4;
 }
 .papers-page .content-card p {
-  margin: 2px 0;
+  margin: 6px 0;
 }
 .papers-page .content-card .btn {
   margin-top: 4px;
@@ -605,6 +634,37 @@ body.nav-left .page-transition.is-entering {
 .papers-page .papers-column {
   gap: 6px;
 }
+.papers-page .papers-thesis-section {
+  margin-top: 18px;
+}
+.papers-page .papers-thesis-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  max-width: 920px;
+  margin: 0 auto;
+}
+.papers-page .papers-thesis-grid .papers-thesis-card {
+  margin: 0;
+  max-width: none;
+  height: 100%;
+}
+.papers-page .papers-thesis-card {
+  display: block;
+  max-width: 780px;
+  margin: 0 auto;
+  text-decoration: none !important;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.papers-page .papers-thesis-card:hover,
+.papers-page .papers-thesis-card:focus {
+  text-decoration: none !important;
+  color: inherit;
+  transform: translateY(-1px);
+  border-color: rgba(119, 134, 149, 0.45);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
 .talks-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -628,16 +688,19 @@ body.nav-left .page-transition.is-entering {
     top: 4px;
     bottom: 4px;
     left: 50%;
-    width: 1px;
+    width: 3px;
+    border-radius: 999px;
     background: linear-gradient(
       to bottom,
-      rgba(90, 106, 122, 0) 0%,
-      rgba(90, 106, 122, 0.3) 12%,
-      rgba(90, 106, 122, 0.42) 50%,
-      rgba(90, 106, 122, 0.3) 88%,
-      rgba(90, 106, 122, 0) 100%
+      rgba(74, 93, 112, 0) 0%,
+      rgba(74, 93, 112, 0.5) 10%,
+      rgba(74, 93, 112, 0.72) 50%,
+      rgba(74, 93, 112, 0.5) 90%,
+      rgba(74, 93, 112, 0) 100%
     );
-    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.28),
+      0 0 10px rgba(53, 70, 86, 0.35);
     pointer-events: none;
   }
 }
@@ -645,6 +708,9 @@ body.nav-left .page-transition.is-entering {
   .code-grid,
   .papers-grid,
   .talks-grid {
+    grid-template-columns: 1fr;
+  }
+  .papers-page .papers-thesis-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -763,6 +829,9 @@ img {
   justify-content: center;
   font-size: clamp(14px, 1.5vw, 18px);
   transition: background-color 0.2s ease, transform 0.2s ease, color 0.2s ease;
+}
+.navbar-custom .navbar-social a[data-location-link] {
+  margin-left: 10px;
 }
 .navbar-custom .navbar-social a:hover,
 .navbar-custom .navbar-social a:focus {
@@ -988,6 +1057,9 @@ body.page-state-ready:not(.on-home-page) .navbar-custom .avatar-container {
   .navbar-custom .navbar-social {
     gap: 6px;
     margin: 8px 0 0 8px;
+  }
+  .navbar-custom .navbar-social a[data-location-link] {
+    margin-left: 6px;
   }
   .navbar-custom .navbar-social a {
     width: 30px;
