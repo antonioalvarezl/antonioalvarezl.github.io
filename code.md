@@ -83,6 +83,20 @@ title: Code
     </div>
 
     <div class="content-card code-card">
+      <h3>Continuous-time Dropout as a Random Batch Method</h3>
+      <div class="card-media">
+        <a class="card-media-link" href="https://github.com/antonioalvarezl/2026-CTDropout-RBM/tree/main">
+          <img src="/assets/images/code/rnode_header.gif" alt="Continuous-time Dropout RBM preview">
+        </a>
+      </div>
+      <p>This work frames continuous-time dropout as a random batch method (RBM). At each time interval of length h a random subset of neurons is sampled and the output is rescaled to keep the estimator unbiased.</p>
+      <div class="code-links">
+        <a class="btn" href="https://github.com/antonioalvarezl/2026-CTDropout-RBM/tree/main">GitHub</a>
+        <a class="btn" href="https://arxiv.org/abs/2510.13134">Paper</a>
+      </div>
+    </div>
+
+    <div class="content-card code-card">
       <h3>Continuous-time Distribution Modeling for Digital Health</h3>
       <div class="card-media">
         <a class="card-media-link" href="https://github.com/antonioalvarezl/2025-EM_MMD">
