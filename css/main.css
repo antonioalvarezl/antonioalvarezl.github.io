@@ -484,6 +484,10 @@ body.nav-left .page-transition.is-entering {
 .code-links .btn {
   margin: 0;
 }
+.code-links a,
+.code-links .btn {
+  font-weight: 700;
+}
 .code-card .card-media {
   display: flex;
   align-items: center;
@@ -644,26 +648,13 @@ body.nav-left .page-transition.is-entering {
   max-width: 920px;
   margin: 0 auto;
 }
-.papers-page .papers-thesis-grid .papers-thesis-card {
-  margin: 0;
-  max-width: none;
-  height: 100%;
-}
-.papers-page .papers-thesis-card {
-  display: block;
+.papers-page .papers-thesis-grid-single {
+  grid-template-columns: minmax(0, 1fr);
   max-width: 780px;
-  margin: 0 auto;
-  text-decoration: none !important;
-  color: inherit;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
-.papers-page .papers-thesis-card:hover,
-.papers-page .papers-thesis-card:focus {
-  text-decoration: none !important;
-  color: inherit;
-  transform: translateY(-1px);
-  border-color: rgba(119, 134, 149, 0.45);
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+.papers-page .papers-thesis-grid .content-card {
+  margin: 0;
+  height: 100%;
 }
 .talks-grid {
   display: grid;

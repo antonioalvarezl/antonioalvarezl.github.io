@@ -78,24 +78,39 @@ title: Papers
 
   <section class="papers-thesis-section">
     <h3 class="section-title section-subtitle">Master's Thesis</h3>
-    <a class="content-card papers-thesis-card" href="{{ '/tfm/' | relative_url }}">
-      <h3>El problema de Parker en Magnetohidrodinámica y aplicaciones de transición para campos force-free</h3>
-      <p><strong>Director:</strong> Alberto Enciso Carrasco</p>
-      <p>UNIVERSIDAD COMPLUTENSE DE MADRID<br>FACULTAD DE CIENCIAS MATEMÁTICAS</p>
-    </a>
+    <div class="papers-thesis-grid papers-thesis-grid-single">
+      <div class="content-card">
+        <h3>El problema de Parker en Magnetohidrodinámica y aplicaciones de transición para campos force-free</h3>
+        <p><strong>Advisor:</strong> Alberto Enciso Carrasco</p>
+        <p>Universidad Complutense de Madrid, 2022</p>
+        <p class="link-pair">
+          <a href="{{ '/tfm/' | relative_url }}">PDF</a>
+        </p>
+      </div>
+    </div>
   </section>
 
   <section class="papers-thesis-section">
     <h3 class="section-title section-subtitle">Bachelor's Thesis</h3>
     <div class="papers-thesis-grid">
-      <a class="content-card papers-thesis-card" href="{{ '/tfg/' | relative_url }}">
-        <h3>Trabajo Fin de Grado en Matemáticas (Maths)</h3>
-        <p>UNIVERSIDAD COMPLUTENSE DE MADRID<br>FACULTAD DE CIENCIAS MATEMÁTICAS</p>
-      </a>
-      <a class="content-card papers-thesis-card" href="{{ '/tfg-physics/' | relative_url }}">
-        <h3>Trabajo Fin de Grado en Física (Physics)</h3>
-        <p>UNIVERSIDAD COMPLUTENSE DE MADRID<br>FACULTAD DE CIENCIAS FÍSICAS</p>
-      </a>
+      <div class="content-card">
+        <h3>(Maths)</h3>
+        <p><strong>Title:</strong> Ecuaciones de Euler de fluidos incompresibles</p>
+        <p><strong>Advisors:</strong> María Victoria Otero Espinar, Alberto Enciso Carrasco</p>
+        <p>Universidad de Santiago de Compostela, 2021</p>
+        <p class="link-pair">
+          <a href="{{ '/tfg/' | relative_url }}">PDF</a>
+        </p>
+      </div>
+      <div class="content-card">
+        <h3>(Physics)</h3>
+        <p><strong>Title:</strong> Correlation and critical ballasting of coupled superconducting quantum states</p>
+        <p><strong>Advisor:</strong> Manuel Vázquez Ramallo</p>
+        <p>Universidad de Santiago de Compostela, 2021</p>
+        <p class="link-pair">
+          <a href="{{ '/tfg-physics/' | relative_url }}">PDF</a>
+        </p>
+      </div>
     </div>
   </section>
 </div>
