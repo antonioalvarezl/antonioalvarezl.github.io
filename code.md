@@ -3,7 +3,7 @@ layout: page
 title: Code
 ---
 
-<p class="page-note" style="text-align: center;">Here are some of my open-source projects. You may find more on my <a href="https://github.com/antonioalvarezl" target="_blank">GitHub profile</a>. If you use any of these tools in your research or teaching, please cite the related papers (full citations in <a href="/papers">Papers</a>). For any questions, feel free to reach out via <a href="/contact">Contact</a>.</p>
+<p class="page-note" style="text-align: center;">Here are some of my open-source projects. You may find more on my <a href="https://github.com/antonioalvarezl" target="_blank">GitHub profile</a>. If you use any of these tools, please cite the related papers (full citations in <a href="/papers">Papers</a>). For any questions, feel free to reach out via <a href="/contact">Contact</a>.</p>
 
 <div class="code-grid">
   <section class="code-column">
