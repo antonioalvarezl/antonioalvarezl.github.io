@@ -52,11 +52,6 @@ author:
   google-scholar: 4Xm2yLgAAAAJ
   researchgate: Antonio-Alvarez-Lopez-2
 
-# CAPTCHA-backed email reveal (no plain email in Contact page source)
-contact_gate:
-  turnstile_site_key: ""
-  reveal_endpoint: ""
-
 # Select which links to show in the footer
 footer-links-active:
   rss: false
