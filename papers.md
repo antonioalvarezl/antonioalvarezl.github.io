@@ -78,8 +78,8 @@ title: Papers
 
   <section class="papers-thesis-section">
     <h3 class="section-title section-subtitle">Master's Thesis</h3>
-    <div class="papers-thesis-grid papers-thesis-grid-single">
-      <div class="content-card">
+    <div class="papers-thesis-grid">
+      <div class="content-card papers-thesis-card-full">
         <h3>El problema de Parker en Magnetohidrodinámica y aplicaciones de transición para campos force-free</h3>
         <p><strong>Advisor:</strong> Alberto Enciso Carrasco</p>
         <p>Universidad Complutense de Madrid, 2022</p>

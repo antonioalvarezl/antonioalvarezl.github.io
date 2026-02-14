@@ -44,13 +44,18 @@ avatar: "/static/img/antonio.jpg"  # ← CAMBIA ESTO cuando subas tu foto (ahora
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Antonio Álvarez-López  # ← CAMBIADO (estaba "Desh Raj")
-  email: "antonio.alvarezl@uam.es"
+  email: ""
   github: antonioalvarezl
   linkedin: antonio-alvarez-lopez-6a09851b4
   # ↓↓↓ AÑADE ESTAS 3 LÍNEAS NUEVAS ↓↓↓
   orcid: 0009-0004-1302-6389
   google-scholar: 4Xm2yLgAAAAJ
   researchgate: Antonio-Alvarez-Lopez-2
+
+# CAPTCHA-backed email reveal (no plain email in Contact page source)
+contact_gate:
+  turnstile_site_key: ""
+  reveal_endpoint: ""
 
 # Select which links to show in the footer
 footer-links-active:

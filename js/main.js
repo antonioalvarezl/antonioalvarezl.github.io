@@ -76,6 +76,8 @@ var main = {
 
     main.syncPageState();
     main.bindLocationCardReset();
+    main.initContactEmailGate();
+    main.hydrateEmailLinks();
     main.bindContactEmailCopy();
 
     // show the big header image	
@@ -122,6 +124,134 @@ var main = {
       }
 
       iframe.attr("src", initialSrc);
+    });
+  },
+
+  initContactEmailGate : function() {
+    var gateCard = $("[data-contact-gate]").first();
+    if (!gateCard.length) {
+      return;
+    }
+
+    var siteKey = (gateCard.attr("data-turnstile-sitekey") || "").trim();
+    var endpoint = (gateCard.attr("data-email-endpoint") || "").trim();
+    var widgetContainer = gateCard.find("[data-contact-turnstile]").first();
+    var emailRow = gateCard.find("[data-contact-email-row]").first();
+    var emailLink = gateCard.find("[data-contact-email-link]").first();
+    var copyButton = gateCard.find("[data-contact-copy-btn]").first();
+    var feedback = gateCard.find(".contact-copy-feedback").first();
+
+    var showStatus = function(message, isError) {
+      if (!feedback.length) {
+        return;
+      }
+      feedback.toggleClass("is-error", !!isError).text(message || "");
+    };
+
+    var unlockEmail = function(email) {
+      emailLink.attr("href", "mailto:" + email).text(email);
+      copyButton.attr("data-copy-text", email);
+      emailRow.removeClass("contact-email-row-hidden");
+      gateCard.addClass("is-unlocked");
+      showStatus("");
+    };
+
+    var revealEmail = function(token) {
+      if (!token) {
+        showStatus("CAPTCHA validation failed. Please retry.", true);
+        return;
+      }
+
+      showStatus("Verifying challenge...", false);
+      fetch(endpoint, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        credentials: "omit",
+        body: JSON.stringify({
+          token: token
+        })
+      }).then(function(response) {
+        return response.json().catch(function() {
+          return {};
+        }).then(function(payload) {
+          return {
+            ok: response.ok,
+            payload: payload
+          };
+        });
+      }).then(function(result) {
+        var email = (result.payload.email || "").trim();
+        var emailLooksValid = /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email);
+
+        if (!result.ok || !emailLooksValid) {
+          showStatus("Could not verify CAPTCHA. Please retry.", true);
+          if (window.turnstile && typeof window.turnstile.reset === "function") {
+            window.turnstile.reset();
+          }
+          return;
+        }
+
+        unlockEmail(email);
+      }).catch(function() {
+        showStatus("Verification error. Please retry.", true);
+        if (window.turnstile && typeof window.turnstile.reset === "function") {
+          window.turnstile.reset();
+        }
+      });
+    };
+
+    if (!siteKey || !endpoint || !widgetContainer.length) {
+      showStatus("Contact is temporarily unavailable.", true);
+      return;
+    }
+
+    if (!window.turnstile || typeof window.turnstile.render !== "function") {
+      showStatus("CAPTCHA did not load. Refresh the page.", true);
+      return;
+    }
+
+    window.turnstile.render(widgetContainer.get(0), {
+      sitekey: siteKey,
+      callback: revealEmail,
+      "error-callback": function() {
+        showStatus("CAPTCHA error. Please retry.", true);
+      },
+      "expired-callback": function() {
+        showStatus("CAPTCHA expired. Please solve it again.", true);
+      }
+    });
+  },
+
+  buildEmailFromData : function(element) {
+    var node = $(element);
+    var user = (node.attr("data-email-user") || "").trim();
+    var domain = (node.attr("data-email-domain") || "").trim();
+    if (!user || !domain) {
+      return "";
+    }
+    return user + "@" + domain;
+  },
+
+  hydrateEmailLinks : function() {
+    $(".js-email-link").each(function() {
+      var link = $(this);
+      var email = main.buildEmailFromData(link);
+      if (!email) {
+        return;
+      }
+
+      var display = (link.attr("data-email-display") || "").trim();
+      if (!display) {
+        display = email.replace("@", " [at] ");
+        link.attr("data-email-display", display);
+      }
+
+      link.attr("href", "mailto:" + email);
+      if (link.hasClass("contact-email-link")) {
+        link.text(display);
+      }
     });
   },
 
@@ -180,6 +310,9 @@ var main = {
     $(document).on("click.contactCopy", ".contact-copy-btn", function() {
       var button = $(this);
       var textToCopy = (button.attr("data-copy-text") || "").trim();
+      if (!textToCopy) {
+        textToCopy = main.buildEmailFromData(button);
+      }
       var card = button.closest(".contact-email-card");
       var feedback = card.find(".contact-copy-feedback").first();
 

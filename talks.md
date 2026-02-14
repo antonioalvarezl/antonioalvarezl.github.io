@@ -36,7 +36,7 @@ title: Talks
   </a>
 </div>
 
-<p class="page-note">Here is a list of my talks and poster presentations (only the most recent version is provided):</p>
+<p class="page-note" style="text-align: center;">(Only the most recent version is provided)</p>
 
 <div class="talks-grid">
   <section class="talks-column">

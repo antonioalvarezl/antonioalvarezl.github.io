@@ -31,8 +31,8 @@ title: Code
         </a>
       </div>
       <p>Python tool to merge multiple <code>.bib</code> files into a single bibliography without losing citation keys (e.g., when preparing a thesis).</p>
-      <div class="code-links">
-        <a class="btn" href="https://github.com/antonioalvarezl/2026-BibTeX-merger">GitHub</a>
+      <div class="code-links link-pair">
+        <a href="https://github.com/antonioalvarezl/2026-BibTeX-merger">GitHub</a>
       </div>
     </div>
 
@@ -118,8 +118,8 @@ title: Code
         </a>
       </div>
       <p>Comparison framework for evaluating different loss functions (KL, L1, L2) in gradient descent optimization of mixtures.</p>
-      <div class="code-links">
-        <a class="btn" href="https://github.com/antonioalvarezl/2024-LossComparisonGD">GitHub</a>
+      <div class="code-links link-pair">
+        <a href="https://github.com/antonioalvarezl/2024-LossComparisonGD">GitHub</a>
       </div>
     </div>
 
