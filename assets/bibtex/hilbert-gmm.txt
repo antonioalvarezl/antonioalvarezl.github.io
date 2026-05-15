@@ -1,1 +1,10 @@
-
+@article{AlvarezLopez2026Gaussian,
+  title        = {Gaussian Mixture Models in {Hilbert} Spaces via Kernel Methods},
+  author       = {{\'A}lvarez-L{\'o}pez, Antonio and L{\'o}pez-Montero, Daniel and Matabuena, Marcos},
+  journal      = {arXiv preprint arXiv:2605.05996},
+  year         = {2026},
+  eprint       = {2605.05996},
+  archivePrefix= {arXiv},
+  primaryClass = {stat.ML},
+  doi          = {10.48550/arXiv.2605.05996},
+}
