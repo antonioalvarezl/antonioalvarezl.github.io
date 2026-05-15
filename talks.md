@@ -43,6 +43,11 @@ title: Talks
     <h3 class="section-title section-subtitle">Seminars</h3>
     <ul class="content-card-list">
       <li class="content-card talk-card">
+        <span class="talk-date">14 May 2026</span>
+        <strong class="talk-title">Deep Learning with Controlled Flows: Expressivity, Generalization and Generation</strong><br>
+        <em>Machine Learning Seminar</em>, Universidad Autónoma de Madrid.
+      </li>
+      <li class="content-card talk-card">
         <span class="talk-date">29 Sep 2025</span>
         <strong class="talk-title">Entropy-driven control of the continuity equation for normalizing flows</strong><br>
         <em>Machine Learning and Scientific Computing Seminar</em>, National University of Singapore.
@@ -51,6 +56,21 @@ title: Talks
         <span class="talk-date">16 Sep 2025</span>
         <strong class="talk-title">Entropy-driven control of the continuity equation for normalizing flows</strong><br>
         <em>Nonlinear PDE Seminar</em>, Texas A&amp;M University.
+      </li>
+      <li class="content-card talk-card">
+        <span class="talk-date">09 Jul 2025</span>
+        <strong class="talk-title">New deep learning models and perspectives for continuous-time glucose monitoring</strong><br>
+        <em>DeustoCCM Seminar</em>, University of Deusto, DeustoTech.
+      </li>
+      <li class="content-card talk-card">
+        <span class="talk-date">2024–2025</span>
+        <strong class="talk-title">Learning Rate — Machine Learning Series (4 sessions)</strong><br>
+        <em>FAU-DCN Lecture Group</em>, Friedrich-Alexander-Universität Erlangen-Nürnberg.
+      </li>
+      <li class="content-card talk-card">
+        <span class="talk-date">01 Apr 2024</span>
+        <strong class="talk-title">Controllability of neural differential equations</strong><br>
+        <em>Seminario Fontán de Matemáticas</em>, Universidade de Santiago de Compostela.
       </li>
       <li class="content-card talk-card">
         <span class="talk-date">22 Feb 2024</span>
