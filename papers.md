@@ -8,7 +8,17 @@ title: Papers
 <div class="papers-page">
   <div class="papers-grid">
     <section class="papers-column">
-      <h3 class="section-title section-subtitle">Journal Articles</h3>
+      <h3 class="section-title section-subtitle">Published &amp; Accepted</h3>
+
+      <div class="content-card">
+        <h3>Perceptrons and localization of attention's mean-field landscape</h3>
+        <p>Antonio Álvarez-López, Borjan Geshkovski, Domènec Ruiz-Balet</p>
+        <p><em>International Conference on Machine Learning (ICML)</em>, 2026 &mdash; <strong>Spotlight</strong> (top 2.2&#37 of submissions)</p>
+        <p class="link-pair">
+          <a href="https://www.arxiv.org/abs/2601.21366">Paper</a>
+          <a href="{{ '/assets/bibtex/perceptrons.txt' | relative_url }}">BibTeX</a>
+        </p>
+      </div>
 
       <div class="content-card">
         <h3>Constructive approximate transport maps with normalizing flows</h3>
@@ -45,12 +55,22 @@ title: Papers
       <h3 class="section-title section-subtitle">Preprints</h3>
 
       <div class="content-card">
-        <h3>Perceptrons and localization of attention's mean-field landscape</h3>
-        <p>Antonio Álvarez-López, Borjan Geshkovski, Domènec Ruiz-Balet</p>
+        <h3>Gaussian mixture models in Hilbert spaces via kernel methods</h3>
+        <p>Antonio Álvarez-López, Daniel López-Montero, Marcos Matabuena</p>
         <p>ArXiv preprint, 2026</p>
         <p class="link-pair">
-          <a href="https://www.arxiv.org/abs/2601.21366">Paper</a>
-          <a href="{{ '/assets/bibtex/perceptrons.txt' | relative_url }}">BibTeX</a>
+          <a href="https://arxiv.org/abs/2605.05996">Paper</a>
+          <a href="{{ '/assets/bibtex/hilbert-gmm.txt' | relative_url }}">BibTeX</a>
+        </p>
+      </div>
+
+      <div class="content-card">
+        <h3>Continuous-Time Learning of Probability Distributions: A Case Study in a Digital Trial of Young Children with Type 1 Diabetes</h3>
+        <p>Antonio Álvarez-López, Marcos Matabuena</p>
+        <p>ArXiv preprint, 2026</p>
+        <p class="link-pair">
+          <a href="https://arxiv.org/abs/2603.24427">Paper</a>
+          <a href="{{ '/assets/bibtex/glucose.txt' | relative_url }}">BibTeX</a>
         </p>
       </div>
 
@@ -61,16 +81,6 @@ title: Papers
         <p class="link-pair">
           <a href="https://arxiv.org/abs/2510.13134">Paper</a>
           <a href="{{ '/assets/bibtex/dropout.txt' | relative_url }}">BibTeX</a>
-        </p>
-      </div>
-
-      <div class="content-card">
-        <h3>Continuous temporal learning of probability distributions via Neural ODEs with applications in continuous glucose monitoring data</h3>
-        <p>Antonio Álvarez-López, Marcos Matabuena</p>
-        <p>ArXiv preprint, 2025</p>
-        <p class="link-pair">
-          <a href="https://arxiv.org/abs/2505.08698">Paper</a>
-          <a href="{{ '/assets/bibtex/glucose.txt' | relative_url }}">BibTeX</a>
         </p>
       </div>
     </section>
