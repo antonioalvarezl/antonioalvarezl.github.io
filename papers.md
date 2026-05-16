@@ -13,7 +13,7 @@ title: Papers
       <div class="content-card">
         <h3>Perceptrons and localization of attention's mean-field landscape</h3>
         <p>Antonio Álvarez-López, Borjan Geshkovski, Domènec Ruiz-Balet</p>
-        <p><em>International Conference on Machine Learning (ICML)</em>, 2026 &mdash; <strong>Spotlight</strong> (top 2.2&#37 of submissions)</p>
+        <p><em>International Conference on Machine Learning (ICML)</em>, 2026 &mdash; <strong>Spotlight</strong> (top 2.2% of submissions)</p>
         <p class="link-pair">
           <a href="https://www.arxiv.org/abs/2601.21366">Paper</a>
           <a href="{{ '/assets/bibtex/perceptrons.txt' | relative_url }}">BibTeX</a>
