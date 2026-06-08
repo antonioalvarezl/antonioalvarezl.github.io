@@ -55,6 +55,16 @@ title: Papers
       <h3 class="section-title section-subtitle">Preprints</h3>
 
       <div class="content-card">
+        <h3>Constructive interpolation and generalization rates for neural ODEs: a control perspective</h3>
+        <p>Antonio Álvarez-López, Lorenzo Liverani, Enrique Zuazua</p>
+        <p>ArXiv preprint, 2026</p>
+        <p class="link-pair">
+          <a href="https://arxiv.org/abs/2606.00469">Paper</a>
+          <a href="{{ '/assets/bibtex/interpolation-rates.txt' | relative_url }}">BibTeX</a>
+        </p>
+      </div>
+
+      <div class="content-card">
         <h3>Gaussian mixture models in Hilbert spaces via kernel methods</h3>
         <p>Antonio Álvarez-López, Daniel López-Montero, Marcos Matabuena</p>
         <p>ArXiv preprint, 2026</p>

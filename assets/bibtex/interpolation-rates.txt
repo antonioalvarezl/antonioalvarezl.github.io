@@ -1,0 +1,10 @@
+@article{AlvarezLopez2026ConstructiveInterpolation,
+  title        = {Constructive Interpolation and Generalization Rates for Neural {ODEs}: A Control Perspective},
+  author       = {{\'A}lvarez-L{\'o}pez, Antonio and Liverani, Lorenzo and Zuazua, Enrique},
+  journal      = {arXiv preprint arXiv:2606.00469},
+  year         = {2026},
+  eprint       = {2606.00469},
+  archivePrefix= {arXiv},
+  primaryClass = {math.OC},
+  doi          = {10.48550/arXiv.2606.00469},
+}
