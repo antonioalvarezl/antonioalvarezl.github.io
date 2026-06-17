@@ -106,7 +106,7 @@ title: Talks
             <li class="content-card talk-card">
         <span class="talk-date">11 Jun 2026</span>
         <strong class="talk-title">Perceptrons and Localization of Attention's Mean Field Landscape</strong><br>
-        <em>Conference in honour of Enrique Zuazua's 65th birthday</em>, Universidad de Deusto, Bilbao.<br>
+        <em>Control, PDEs and Machine Learning: Conference in honour of Enrique Zuazua's 65th birthday</em>, Universidad de Deusto, Bilbao.<br>
       </li>
       <li class="content-card talk-card">
         <span class="talk-date">17 Dec 2025</span>
