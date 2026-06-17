@@ -103,26 +103,31 @@ title: Talks
   <section class="talks-column">
     <h3 class="section-title section-subtitle">Conferences &amp; Workshops</h3>
     <ul class="content-card-list">
+            <li class="content-card talk-card">
+        <span class="talk-date">11 Jun 2026</span>
+        <strong class="talk-title">Perceptrons and Localization of Attention's Mean Field Landscape</strong><br>
+        <em>Conference in honour of Enrique Zuazua's 65th birthday</em>, Universidad de Deusto, Bilbao.<br>
+      </li>
       <li class="content-card talk-card">
         <span class="talk-date">17 Dec 2025</span>
         <strong class="talk-title">Continuous-Time Learning of Probability Distributions via Neural ODEs with Applications in Continuous Glucose Monitoring Data</strong><br>
-        <em>IMS International Conference on Statistics and Data Science (ICSDS)</em>, Seville, Spain.<br>
+        <em>IMS International Conference on Statistics and Data Science (ICSDS)</em>, Seville.<br>
         <strong>Student Travel Award</strong>
       </li>
       <li class="content-card talk-card">
         <span class="talk-date">27 Aug 2024</span>
         <strong class="talk-title">Cluster-based classification with neural ODEs via control</strong><br>
-        <em>Conference X Partial Differential Equations, Optimal Design and Numerics</em>, Centro de Ciencias de Benasque Pedro Pascual.
+        <em>Conference X Partial Differential Equations, Optimal Design and Numerics</em>, Centro de Ciencias de Benasque Pedro Pascual, Spain.
       </li>
       <li class="content-card talk-card">
         <span class="talk-date">26 Aug 2024</span>
         <strong class="talk-title">Interplay between depth and width for interpolation in neural ODEs</strong><br>
-        <em>Conference X Partial Differential Equations, Optimal Design and Numerics</em>, Centro de Ciencias de Benasque Pedro Pascual.
+        <em>Conference X Partial Differential Equations, Optimal Design and Numerics</em>, Centro de Ciencias de Benasque Pedro Pascual, Spain.
       </li>
       <li class="content-card talk-card">
         <span class="talk-date">21 Jun 2024</span>
         <strong class="talk-title">Controllability of neural ODEs for data classification</strong><br>
-        <em>21st French-German-Spanish Conference on Optimization</em>, Universidad de Oviedo.
+        <em>21st French-German-Spanish Conference on Optimization</em>, Universidad de Oviedo, Spain.
       </li>
       <li class="content-card talk-card">
         <span class="talk-date">14 Nov 2023</span>
