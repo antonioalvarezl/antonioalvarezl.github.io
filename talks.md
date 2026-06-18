@@ -42,6 +42,12 @@ title: Talks
   <section class="talks-column">
     <h3 class="section-title section-subtitle">Seminars</h3>
     <ul class="content-card-list">
+     
+       <li class="content-card talk-card">
+        <span class="talk-date">18 June 2026</span>
+        <strong class="talk-title">Perceptrons and Localization of Attention's Mean Field Landscape</strong><br>
+        <em> Math Machine Learning seminar MPI MIS + UCLA</em>, University of California in Los Angeles.
+      </li>
       <li class="content-card talk-card">
         <span class="talk-date">14 May 2026</span>
         <strong class="talk-title">Deep Learning with Controlled Flows: Expressivity, Generalization and Generation</strong><br>
