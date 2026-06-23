@@ -109,10 +109,15 @@ title: Talks
   <section class="talks-column">
     <h3 class="section-title section-subtitle">Conferences &amp; Workshops</h3>
     <ul class="content-card-list">
+      <li class="content-card talk-card">
+        <span class="talk-date">23 Jun 2026</span>
+        <strong class="talk-title">Perceptrons and Localization of Attention's Mean Field Landscape</strong><br>
+        <em>Machine Learning and PDEs Workshop</em>, Universidad de Deusto, Bilbao.<br>
+      </li>
             <li class="content-card talk-card">
         <span class="talk-date">11 Jun 2026</span>
         <strong class="talk-title">Perceptrons and Localization of Attention's Mean Field Landscape</strong><br>
-        <em>Control, PDEs and Machine Learning: Conference in honour of Enrique Zuazua's 65th birthday</em>, Universidad de Deusto, Bilbao.<br>
+        <em>Control, PDEs and Machine Learning: Conference in honour of Enrique Zuazua's 65th birthday</em>, FAU MoD, the Research Center for Mathematics of Data at Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany.<br>
       </li>
       <li class="content-card talk-card">
         <span class="talk-date">17 Dec 2025</span>
