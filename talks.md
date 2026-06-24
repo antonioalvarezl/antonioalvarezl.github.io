@@ -5,28 +5,28 @@ title: Talks & Posters
 
 <div class="slides-strip">
   <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/TRANSFORMERS.pdf">
-    <div class="slide-frame">
-      <img src="/assets/images/slides/TRANSFORMERS.png" alt="TRANSFORMERS slides preview">
+    <div class="slide-frame" data-label="TRANSFORMERS slides">
+      <img src="/assets/images/slides/TRANSFORMERS.png" alt="TRANSFORMERS slides preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
     </div>
   </a>
   <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/ICSDS.pdf">
-    <div class="slide-frame">
-      <img src="/assets/images/slides/ICSDS.png" alt="ICSDS slides preview">
+    <div class="slide-frame" data-label="ICSDS slides">
+      <img src="/assets/images/slides/ICSDS.png" alt="ICSDS slides preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
     </div>
   </a>
   <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/NUS.pdf">
-    <div class="slide-frame">
-      <img src="/assets/images/slides/NUS.png" alt="NUS slides preview">
+    <div class="slide-frame" data-label="NUS slides">
+      <img src="/assets/images/slides/NUS.png" alt="NUS slides preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
     </div>
   </a>
   <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/BENASQUE.pdf">
-    <div class="slide-frame">
-      <img src="/assets/images/slides/BENASQUE.png" alt="Benasque slides preview">
+    <div class="slide-frame" data-label="Benasque slides">
+      <img src="/assets/images/slides/BENASQUE.png" alt="Benasque slides preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
     </div>
   </a>
   <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/BENASQUE2.pdf">
-    <div class="slide-frame">
-      <img src="/assets/images/slides/BENASQUE2.png" alt="Benasque 2 slides preview">
+    <div class="slide-frame" data-label="Benasque 2 slides">
+      <img src="/assets/images/slides/BENASQUE2.png" alt="Benasque 2 slides preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
     </div>
   </a>
 </div>
@@ -153,13 +153,13 @@ title: Talks & Posters
 
 <div class="slides-strip">
   <a class="slide-preview poster" style="--frame-ratio: 16 / 9;" href="/assets/posters/SHANGHAI.pdf">
-    <div class="slide-frame">
-      <img src="/assets/images/slides/SHANGHAI-poster.png" alt="Shanghai poster preview">
+    <div class="slide-frame" data-label="Shanghai poster">
+      <img src="/assets/images/slides/SHANGHAI-poster.png" alt="Shanghai poster preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
     </div>
   </a>
   <a class="slide-preview poster" style="--frame-ratio: 16 / 9;" href="/assets/posters/ICML.pdf">
-    <div class="slide-frame">
-      <img src="/assets/images/slides/ICML-poster.png" alt="ICML poster preview">
+    <div class="slide-frame" data-label="ICML poster">
+      <img src="/assets/images/slides/ICML-poster.png" alt="ICML poster preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
     </div>
   </a>
 </div>

@@ -554,6 +554,23 @@ body.nav-left .page-transition.is-entering {
   display: block;
   background: rgba(255, 255, 255, 0.6);
 }
+.slide-frame.preview-missing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(232,240,248,0.95));
+  color: #2f3640;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.slide-frame.preview-missing::before {
+  content: attr(data-label);
+}
 .slide-preview.poster .slide-frame img {
   object-fit: fill;
 }
