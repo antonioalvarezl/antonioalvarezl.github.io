@@ -1,9 +1,14 @@
 ---
 layout: page
-title: Talks
+title: Talks & Posters
 ---
 
 <div class="slides-strip">
+  <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/TRANSFORMERS.pdf">
+    <div class="slide-frame">
+      <img src="/assets/images/slides/TRANSFORMERS.png" alt="TRANSFORMERS slides preview">
+    </div>
+  </a>
   <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/ICSDS.pdf">
     <div class="slide-frame">
       <img src="/assets/images/slides/ICSDS.png" alt="ICSDS slides preview">
@@ -24,19 +29,9 @@ title: Talks
       <img src="/assets/images/slides/BENASQUE2.png" alt="Benasque 2 slides preview">
     </div>
   </a>
-  <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/FAU.pdf">
-    <div class="slide-frame">
-      <img src="/assets/images/slides/FAU.png" alt="FAU slides preview">
-    </div>
-  </a>
-  <a class="slide-preview poster" style="--frame-ratio: 16 / 9;" href="/assets/posters/SHANGHAI.pdf">
-    <div class="slide-frame">
-      <img src="/assets/images/slides/SHANGHAI-poster.png" alt="Shanghai poster preview">
-    </div>
-  </a>
 </div>
 
-<p class="page-note" style="text-align: center;">(Only the most recent version is provided)</p>
+<p class="page-note" style="text-align: center;">(The most recent version is provided)</p>
 
 <div class="talks-grid">
   <section class="talks-column">
@@ -112,12 +107,12 @@ title: Talks
       <li class="content-card talk-card">
         <span class="talk-date">23 Jun 2026</span>
         <strong class="talk-title">Perceptrons and Localization of Attention's Mean Field Landscape</strong><br>
-        <em>Machine Learning and PDEs Workshop</em>, Universidad de Deusto, Bilbao.<br>
+        <em>Machine Learning and PDEs Workshop</em>, FAU MoD, the Research Center for Mathematics of Data at Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany.<br>
       </li>
             <li class="content-card talk-card">
         <span class="talk-date">11 Jun 2026</span>
         <strong class="talk-title">Perceptrons and Localization of Attention's Mean Field Landscape</strong><br>
-        <em>Control, PDEs and Machine Learning: Conference in honour of Enrique Zuazua's 65th birthday</em>, FAU MoD, the Research Center for Mathematics of Data at Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany.<br>
+        <em>Control, PDEs and Machine Learning: Conference in honour of Enrique Zuazua's 65th birthday</em>, Universidad de Deusto, Bilbao.<br>
       </li>
       <li class="content-card talk-card">
         <span class="talk-date">17 Dec 2025</span>
@@ -155,6 +150,19 @@ title: Talks
 </div>
 
 <h3 class="section-title section-subtitle">Poster Presentations</h3>
+
+<div class="slides-strip">
+  <a class="slide-preview poster" style="--frame-ratio: 16 / 9;" href="/assets/posters/SHANGHAI.pdf">
+    <div class="slide-frame">
+      <img src="/assets/images/slides/SHANGHAI-poster.png" alt="Shanghai poster preview">
+    </div>
+  </a>
+  <a class="slide-preview poster" style="--frame-ratio: 16 / 9;" href="/assets/posters/ICML.pdf">
+    <div class="slide-frame">
+      <img src="/assets/images/slides/ICML-poster.png" alt="ICML poster preview">
+    </div>
+  </a>
+</div>
 
 <ul class="content-card-list">
   <li class="content-card talk-card">
