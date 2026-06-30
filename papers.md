@@ -13,7 +13,7 @@ title: Papers
       <div class="content-card">
         <h3>Perceptrons and localization of attention's mean-field landscape</h3>
         <p>Antonio Álvarez-López, Borjan Geshkovski, Domènec Ruiz-Balet</p>
-        <p><em>International Conference on Machine Learning (ICML)</em>, 2026 &mdash; <strong>Spotlight</strong> (top 2.2% of submissions)</p>
+        <p><em>International Conference on Machine Learning 2026 </em>  Spotlight</p>
         <p class="link-pair">
           <a href="https://www.arxiv.org/abs/2601.21366">Paper</a>
           <a href="{{ '/assets/bibtex/perceptrons.txt' | relative_url }}">BibTeX</a>
@@ -95,6 +95,20 @@ title: Papers
       </div>
     </section>
   </div>
+
+  <section class="papers-thesis-section">
+    <h3 class="section-title section-subtitle">PhD Thesis</h3>
+    <div class="papers-thesis-grid">
+      <div class="content-card papers-thesis-card-full">
+        <h3>Deep Learning with Controlled Flows: Expressivity, Generalization and Generation</h3>
+        <p><strong>Advisors:</strong> Prof. Enrique Zuazua (FAU) &amp; Prof. Rafael Orive (UAM)</p>
+        <p>Universidad Autónoma de Madrid, April 2026</p>
+        <p class="link-pair">
+          <a href="{{ '/thesis/' | relative_url }}">PDF</a>
+        </p>
+      </div>
+    </div>
+  </section>
 
   <section class="papers-thesis-section">
     <h3 class="section-title section-subtitle">Master's Thesis</h3>
