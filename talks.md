@@ -3,52 +3,196 @@ layout: page
 title: Talks & Posters
 ---
 
+<style>
+  .slides-carousel {
+    position: relative;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-bottom: 24px;
+    padding: 0 58px;
+  }
+
+  .slides-viewport {
+    overflow: hidden;
+    padding: 14px 0 18px;
+  }
+
+  .slides-track {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 16px;
+    align-items: flex-start;
+    will-change: transform;
+  }
+
+  .slide-item {
+    flex: 0 0 200px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .slide-item .slide-preview {
+    display: block;
+    width: 100%;
+  }
+
+  .slide-caption {
+    margin: 8px 0 0;
+    font-size: 0.85em;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .slides-carousel .slide-preview:hover .slide-frame,
+  .slides-carousel .slide-preview:focus .slide-frame {
+    transform: scale(1.08);
+  }
+
+  .slides-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 4;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.14);
+    font-size: 26px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .slides-arrow:hover,
+  .slides-arrow:focus {
+    transform: translateY(-50%) scale(1.08);
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.2);
+  }
+
+  .slides-arrow-left {
+    left: 10px;
+  }
+
+  .slides-arrow-right {
+    right: 10px;
+  }
+
+  .thesis-defense-list {
+    max-width: 760px;
+    margin: 0 auto 28px;
+  }
+
+  .thesis-defense-card {
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .slides-carousel {
+      padding: 0 46px;
+    }
+
+    .slide-item {
+      flex-basis: 160px;
+      width: 160px;
+    }
+
+    .slides-arrow {
+      width: 34px;
+      height: 34px;
+      font-size: 22px;
+    }
+
+    .slides-arrow-left {
+      left: 6px;
+    }
+
+    .slides-arrow-right {
+      right: 6px;
+    }
+  }
+</style>
+
 <p class="page-note" style="text-align: center;">(Only the most recent version is provided)</p>
 
-<div class="slides-strip" style="justify-content: center;">
-  <div style="text-align: center;">
-    <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/thesis.pdf">
-      <div class="slide-frame" data-label="Thesis defense slides">
-        <img src="/assets/images/slides/thesis.png" alt="Thesis defense slides preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
+<div class="slides-carousel" data-slides-carousel>
+  <button class="slides-arrow slides-arrow-left" type="button" aria-label="Previous slides">
+    &#8249;
+  </button>
+
+  <div class="slides-viewport">
+    <div class="slides-track">
+
+      <div class="slide-item">
+        <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/thesis.pdf">
+          <div class="slide-frame" data-label="Thesis slides">
+            <img src="/assets/images/slides/thesis.png" alt="Thesis slides preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
+          </div>
+        </a>
+        <p class="slide-caption">(Thesis slides)</p>
       </div>
-    </a>
-    <p style="margin-top: 10px;">
-      <strong>Thesis defense: 1 Jul 2026</strong>
-    </p>
+
+      <div class="slide-item">
+        <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/TRANSFORMERS.pdf">
+          <div class="slide-frame" data-label="TRANSFORMERS slides">
+            <img src="/assets/images/slides/TRANSFORMERS.png" alt="TRANSFORMERS slides preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
+          </div>
+        </a>
+      </div>
+
+      <div class="slide-item">
+        <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/ICSDS.pdf">
+          <div class="slide-frame" data-label="ICSDS slides">
+            <img src="/assets/images/slides/ICSDS.png" alt="ICSDS slides preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
+          </div>
+        </a>
+      </div>
+
+      <div class="slide-item">
+        <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/NUS.pdf">
+          <div class="slide-frame" data-label="NUS slides">
+            <img src="/assets/images/slides/NUS.png" alt="NUS slides preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
+          </div>
+        </a>
+      </div>
+
+      <div class="slide-item">
+        <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/BENASQUE.pdf">
+          <div class="slide-frame" data-label="Benasque slides">
+            <img src="/assets/images/slides/BENASQUE.png" alt="Benasque slides preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
+          </div>
+        </a>
+      </div>
+
+      <div class="slide-item">
+        <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/BENASQUE2.pdf">
+          <div class="slide-frame" data-label="Benasque 2 slides">
+            <img src="/assets/images/slides/BENASQUE2.png" alt="Benasque 2 slides preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
+          </div>
+        </a>
+      </div>
+
+    </div>
   </div>
+
+  <button class="slides-arrow slides-arrow-right" type="button" aria-label="Next slides">
+    &#8250;
+  </button>
 </div>
 
-<div class="slides-strip">
-  <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/TRANSFORMERS.pdf">
-    <div class="slide-frame" data-label="TRANSFORMERS slides">
-      <img src="/assets/images/slides/TRANSFORMERS.png" alt="TRANSFORMERS slides preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
-    </div>
-  </a>
+<h3 class="section-title section-subtitle">Thesis Defense</h3>
 
-  <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/ICSDS.pdf">
-    <div class="slide-frame" data-label="ICSDS slides">
-      <img src="/assets/images/slides/ICSDS.png" alt="ICSDS slides preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
-    </div>
-  </a>
-
-  <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/NUS.pdf">
-    <div class="slide-frame" data-label="NUS slides">
-      <img src="/assets/images/slides/NUS.png" alt="NUS slides preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
-    </div>
-  </a>
-
-  <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/BENASQUE.pdf">
-    <div class="slide-frame" data-label="Benasque slides">
-      <img src="/assets/images/slides/BENASQUE.png" alt="Benasque slides preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
-    </div>
-  </a>
-
-  <a class="slide-preview" style="--frame-ratio: 16 / 9;" href="/assets/slides/BENASQUE2.pdf">
-    <div class="slide-frame" data-label="Benasque 2 slides">
-      <img src="/assets/images/slides/BENASQUE2.png" alt="Benasque 2 slides preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
-    </div>
-  </a>
-</div>
+<ul class="content-card-list thesis-defense-list">
+  <li class="content-card talk-card thesis-defense-card">
+    <span class="talk-date">1 Jul 2026</span>
+    <strong class="talk-title">PhD Thesis Defense</strong><br>
+    <em>Universidad Autónoma de Madrid</em>, Madrid, Spain.
+  </li>
+</ul>
 
 <div class="talks-grid">
   <section class="talks-column">
@@ -254,5 +398,82 @@ title: Talks & Posters
   </li>
 
 </ul>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const carousel = document.querySelector("[data-slides-carousel]");
+
+  if (!carousel) {
+    return;
+  }
+
+  const track = carousel.querySelector(".slides-track");
+  const previousButton = carousel.querySelector(".slides-arrow-left");
+  const nextButton = carousel.querySelector(".slides-arrow-right");
+
+  let isMoving = false;
+
+  function getStepSize() {
+    const firstItem = track.firstElementChild;
+
+    if (!firstItem) {
+      return 0;
+    }
+
+    const trackStyle = window.getComputedStyle(track);
+    const gap = parseFloat(trackStyle.columnGap || trackStyle.gap) || 0;
+
+    return firstItem.getBoundingClientRect().width + gap;
+  }
+
+  function moveNext() {
+    if (isMoving || !track.firstElementChild) {
+      return;
+    }
+
+    isMoving = true;
+
+    const firstItem = track.firstElementChild;
+    const step = getStepSize();
+
+    track.style.transition = "transform 0.35s ease";
+    track.style.transform = `translateX(-${step}px)`;
+
+    track.addEventListener("transitionend", function handleNextEnd() {
+      track.appendChild(firstItem);
+      track.style.transition = "none";
+      track.style.transform = "translateX(0)";
+      isMoving = false;
+    }, { once: true });
+  }
+
+  function movePrevious() {
+    if (isMoving || !track.lastElementChild) {
+      return;
+    }
+
+    isMoving = true;
+
+    const lastItem = track.lastElementChild;
+    const step = getStepSize();
+
+    track.style.transition = "none";
+    track.insertBefore(lastItem, track.firstElementChild);
+    track.style.transform = `translateX(-${step}px)`;
+
+    track.offsetHeight;
+
+    track.style.transition = "transform 0.35s ease";
+    track.style.transform = "translateX(0)";
+
+    track.addEventListener("transitionend", function handlePreviousEnd() {
+      isMoving = false;
+    }, { once: true });
+  }
+
+  nextButton.addEventListener("click", moveNext);
+  previousButton.addEventListener("click", movePrevious);
+});
+</script>
 
 ---
