@@ -1,10 +1,9 @@
 ---
-
 layout: page
 title: Antonio Álvarez-López
 subtitle: Researcher
 use-site-title: true
---------------------
+---
 
 <style>
     .update-list {
@@ -58,17 +57,23 @@ use-site-title: true
     .update-image {
         display: block;
         width: 100%;
-        height: auto;
-        border-radius: 8px;
+        height: 120px;
+        border-radius: 6px;
+        object-fit: cover;
     }
 
     .update-image-row {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 12px;
-        width: 100%;
-        max-width: 560px;
-        margin: 15px auto 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        max-width: 380px;
+        margin: 10px auto 0;
+    }
+
+    .update-image-row a {
+        flex: 1;
+        max-width: 185px;
     }
 
     .update-image-row .update-image {
@@ -76,10 +81,31 @@ use-site-title: true
         margin: 0;
     }
 
+    .update-image-poster {
+        object-fit: contain;
+        background: rgba(255, 255, 255, 0.65);
+    }
+
     .update-image-single {
-        width: 100%;
-        max-width: 420px;
-        margin: 15px auto 0;
+        width: 260px;
+        height: 170px;
+        object-fit: cover;
+        margin: 10px auto 0;
+    }
+
+    @media only screen and (max-width: 500px) {
+        .update-image-row {
+            max-width: 100%;
+        }
+
+        .update-image {
+            height: 100px;
+        }
+
+        .update-image-single {
+            width: 220px;
+            height: 145px;
+        }
     }
 </style>
 
@@ -102,14 +128,11 @@ use-site-title: true
         </a>.
     </p>
 
-```
-<p>
-    My research focuses on controlled dynamical systems for machine learning,
-    with particular interest in supervised learning, generative modeling,
-    neural differential equations, and the mathematical foundations of deep learning.
-</p>
-```
-
+    <p>
+        My research focuses on controlled dynamical systems for machine learning,
+        with particular interest in supervised learning, generative modeling,
+        neural differential equations, and the mathematical foundations of deep learning.
+    </p>
 </div>
 
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
@@ -118,331 +141,335 @@ use-site-title: true
 
 <ul class="update-list">
 
-```
-<li class="update-card">
-    <span class="update-date">6–11 July 2026</span>
+    <li class="update-card">
+        <span class="update-date">6–11 July 2026</span>
 
-    <p>
-        I spent the week in Seoul attending <strong>ICML 2026</strong>.
-        It was a great experience that gave me the opportunity to make many
-        new connections, get close to some of the hottest topics in machine learning,
-        and exchange ideas with researchers from all over the world.
-    </p>
+        <p>
+            I spent the week in Seoul attending <strong>ICML 2026</strong>.
+            It was a great experience that gave me the opportunity to make many
+            new connections, get close to some of the hottest topics in machine learning,
+            and exchange ideas with researchers from all over the world.
+        </p>
 
-    <p>
-        I also enjoyed discovering Seoul, a vibrant city that made the whole
-        experience even more memorable.
-    </p>
+        <p>
+            I also enjoyed discovering Seoul, a vibrant city that made the whole
+            experience even more memorable.
+        </p>
 
-    <div class="update-image-row">
-        <img
-            class="update-image"
-            src="/assets/images/foto_icml.png"
-            alt="ICML 2026 in Seoul"
-        >
+        <div class="update-image-row">
+            <a href="/assets/images/foto_icml.png">
+                <img
+                    class="update-image"
+                    src="/assets/images/foto_icml.png"
+                    alt="ICML 2026 in Seoul"
+                >
+            </a>
 
-        <img
-            class="update-image"
-            src="/assets/images/poster_icml.png"
-            alt="Poster presentation at ICML 2026"
-        >
-    </div>
-</li>
+            <a href="/assets/images/poster_icml.png">
+                <img
+                    class="update-image update-image-poster"
+                    src="/assets/images/poster_icml.png"
+                    alt="Poster presentation at ICML 2026"
+                >
+            </a>
+        </div>
+    </li>
 
-<li class="update-card">
-    <span class="update-date">1 July 2026</span>
+    <li class="update-card">
+        <span class="update-date">1 July 2026</span>
 
-    <p>
-        I successfully defended my PhD thesis at the
-        <a href="https://www.uam.es/UAM/Home.htm?language=en">
-            Universidad Autónoma de Madrid
-        </a>,
-        receiving the <em>cum laude</em> distinction.
-    </p>
+        <p>
+            I successfully defended my PhD thesis at the
+            <a href="https://www.uam.es/UAM/Home.htm?language=en">
+                Universidad Autónoma de Madrid
+            </a>,
+            receiving the <em>cum laude</em> distinction.
+        </p>
 
-    <p>
-        Reaching the end of this journey fills me with a great sense of personal
-        fulfillment. These years have brought me countless experiences and given
-        me the opportunity to meet wonderful people from many different parts of
-        the world.
-    </p>
+        <p>
+            Reaching the end of this journey fills me with a great sense of personal
+            fulfillment. These years have brought me countless experiences and given
+            me the opportunity to meet wonderful people from many different parts of
+            the world.
+        </p>
 
-    <p>
-        I am especially happy to have shared such an important moment with my
-        family and my advisors. I could not be more excited about the next stage
-        and the new challenges ahead... news coming soon!
-    </p>
+        <p>
+            I am especially happy to have shared such an important moment with my
+            family and my advisors. I could not be more excited about the next stage
+            and the new challenges ahead... news coming soon!
+        </p>
 
-    <img
-        class="update-image update-image-single"
-        src="/assets/images/foto_thesis.png"
-        alt="PhD thesis defense at Universidad Autónoma de Madrid"
-    >
-</li>
-
-<li class="update-card">
-    <span class="update-date">June 2026</span>
-
-    <p>
-        I gave a plenary talk at the
-        <a href="https://mod.fau.eu/mlpdes26/">
-            Machine Learning and PDEs Workshop
+        <a href="/assets/images/foto_thesis.png">
+            <img
+                class="update-image update-image-single"
+                src="/assets/images/foto_thesis.png"
+                alt="PhD thesis defense at Universidad Autónoma de Madrid"
+            >
         </a>
-        (FAU-DCN), presenting my work
-        <a href="https://www.arxiv.org/abs/2601.21366">
-            "Perceptrons and localization of attention's mean-field landscape"
-        </a>.
-    </p>
-</li>
+    </li>
 
-<li class="update-card">
-    <span class="update-date">June 2026</span>
+    <li class="update-card">
+        <span class="update-date">June 2026</span>
 
-    <p>
-        I gave an
-        <a href="https://www.mis.mpg.de/events/event/perceptrons-and-localization-of-attentions-mean-field-landscape">
-            online seminar
-        </a>
-        for the Math Machine Learning seminar MPI MIS + UCLA, presenting my work
-        <a href="https://www.arxiv.org/abs/2601.21366">
-            "Perceptrons and localization of attention's mean-field landscape"
-        </a>.
-    </p>
-</li>
+        <p>
+            I gave a plenary talk at the
+            <a href="https://mod.fau.eu/mlpdes26/">
+                Machine Learning and PDEs Workshop
+            </a>
+            (FAU-DCN), presenting my work
+            <a href="https://www.arxiv.org/abs/2601.21366">
+                "Perceptrons and localization of attention's mean-field landscape"
+            </a>.
+        </p>
+    </li>
 
-<li class="update-card">
-    <span class="update-date">June 2026</span>
+    <li class="update-card">
+        <span class="update-date">June 2026</span>
 
-    <p>
-        I attended the
-        <a href="https://sites.google.com/deusto.es/conference-enriquezuazua65/home">
-            conference celebrating the 65th birthday of my PhD advisor,
-            Enrique Zuazua
-        </a>,
-        at the University of Deusto, where I presented my work
-        <a href="https://www.arxiv.org/abs/2601.21366">
-            "Perceptrons and localization of attention's mean-field landscape"
-        </a>.
-    </p>
-</li>
+        <p>
+            I gave an
+            <a href="https://www.mis.mpg.de/events/event/perceptrons-and-localization-of-attentions-mean-field-landscape">
+                online seminar
+            </a>
+            for the Math Machine Learning seminar MPI MIS + UCLA, presenting my work
+            <a href="https://www.arxiv.org/abs/2601.21366">
+                "Perceptrons and localization of attention's mean-field landscape"
+            </a>.
+        </p>
+    </li>
 
-<li class="update-card">
-    <span class="update-date">June 2026</span>
+    <li class="update-card">
+        <span class="update-date">June 2026</span>
 
-    <p>
-        <strong>New preprint on arXiv!</strong>
-        In collaboration with Lorenzo Liverani and Enrique Zuazua, we uploaded our work
-        <a href="https://arxiv.org/abs/2606.00469">
-            "Constructive interpolation and generalization rates for neural ODEs:
-            a control perspective"
-        </a>.
-    </p>
+        <p>
+            I attended the
+            <a href="https://sites.google.com/deusto.es/conference-enriquezuazua65/home">
+                conference celebrating the 65th birthday of my PhD advisor,
+                Enrique Zuazua
+            </a>,
+            at the University of Deusto, where I presented my work
+            <a href="https://www.arxiv.org/abs/2601.21366">
+                "Perceptrons and localization of attention's mean-field landscape"
+            </a>.
+        </p>
+    </li>
 
-    <p>
-        We constructively prove exact interpolation for semi-autonomous neural ODEs,
-        obtain nonparametric population-risk rates with estimates on the required width,
-        and compare with purely autonomous models.
-    </p>
-</li>
+    <li class="update-card">
+        <span class="update-date">June 2026</span>
 
-<li class="update-card">
-    <span class="update-date">May 2026</span>
+        <p>
+            <strong>New preprint on arXiv!</strong>
+            In collaboration with Lorenzo Liverani and Enrique Zuazua, we uploaded our work
+            <a href="https://arxiv.org/abs/2606.00469">
+                "Constructive interpolation and generalization rates for neural ODEs:
+                a control perspective"
+            </a>.
+        </p>
 
-    <p>
-        I attended the
-        <a href="https://sites.google.com/unitn.it/mfml-2026/home?authuser=0">
-            Mathematical Foundations of Machine Learning (MFML 2026)
-        </a>
-        summer school, held from May 25 to 29, 2026 in Vason, Monte Bondone
-        (Trento, Italy), and organized by Gian Paolo Leonardi and Giuseppe Savaré.
-    </p>
-</li>
+        <p>
+            We constructively prove exact interpolation for semi-autonomous neural ODEs,
+            obtain nonparametric population-risk rates with estimates on the required width,
+            and compare with purely autonomous models.
+        </p>
+    </li>
 
-<li class="update-card">
-    <span class="update-date">May 2026</span>
+    <li class="update-card">
+        <span class="update-date">May 2026</span>
 
-    <p>
-        <strong>New preprint on arXiv!</strong>
-        In collaboration with Daniel López-Montero and Marcos Matabuena, we uploaded our work
-        <a href="https://arxiv.org/abs/2605.05996">
-            "Gaussian mixture models in Hilbert spaces via kernel methods"
-        </a>.
-    </p>
+        <p>
+            I attended the
+            <a href="https://sites.google.com/unitn.it/mfml-2026/home?authuser=0">
+                Mathematical Foundations of Machine Learning (MFML 2026)
+            </a>
+            summer school, held from May 25 to 29, 2026 in Vason, Monte Bondone
+            (Trento, Italy), and organized by Gian Paolo Leonardi and Giuseppe Savaré.
+        </p>
+    </li>
 
-    <p>
-        This work generalizes our previous study on
-        <a href="https://arxiv.org/abs/2505.08698">
-            continuous-time learning of probability distributions
-        </a>
-        to the setting of Gaussian mixtures defined directly on infinite-dimensional
-        Hilbert spaces, using kernel methods to lift the construction beyond Euclidean domains.
-    </p>
-</li>
+    <li class="update-card">
+        <span class="update-date">May 2026</span>
 
-<li class="update-card">
-    <span class="update-date">May 2026</span>
+        <p>
+            <strong>New preprint on arXiv!</strong>
+            In collaboration with Daniel López-Montero and Marcos Matabuena, we uploaded our work
+            <a href="https://arxiv.org/abs/2605.05996">
+                "Gaussian mixture models in Hilbert spaces via kernel methods"
+            </a>.
+        </p>
 
-    <p>
-        Our work
-        <a href="https://www.arxiv.org/abs/2601.21366">
-            "Perceptrons and localization of attention's mean-field landscape"
-        </a>
-        has been accepted as a spotlight paper in 2026!
-    </p>
-</li>
+        <p>
+            This work generalizes our previous study on
+            <a href="https://arxiv.org/abs/2505.08698">
+                continuous-time learning of probability distributions
+            </a>
+            to the setting of Gaussian mixtures defined directly on infinite-dimensional
+            Hilbert spaces, using kernel methods to lift the construction beyond Euclidean domains.
+        </p>
+    </li>
 
-<li class="update-card">
-    <span class="update-date">April 2026</span>
+    <li class="update-card">
+        <span class="update-date">May 2026</span>
 
-    <p>
-        My PhD thesis has been officially deposited at the university.
-        The defense is expected to take place by the end of June.
-    </p>
-</li>
+        <p>
+            Our work
+            <a href="https://www.arxiv.org/abs/2601.21366">
+                "Perceptrons and localization of attention's mean-field landscape"
+            </a>
+            has been accepted as a spotlight paper in 2026!
+        </p>
+    </li>
 
-<li class="update-card">
-    <span class="update-date">February 2026</span>
+    <li class="update-card">
+        <span class="update-date">April 2026</span>
 
-    <p>
-        I created a GitHub repository with the code for our paper
-        <a href="https://arxiv.org/abs/2510.13134">
-            "Convergence, design and training of continuous-time dropout as a random batch method"
-        </a>
-        (<a href="https://github.com/antonioalvarezl/2026-CTDropout-RBM/tree/main">repo here</a>).
-    </p>
-</li>
+        <p>
+            My PhD thesis has been officially deposited at the university.
+            The defense is expected to take place by the end of June.
+        </p>
+    </li>
 
-<li class="update-card">
-    <span class="update-date">February 2026</span>
+    <li class="update-card">
+        <span class="update-date">February 2026</span>
 
-    <p>
-        To give myself a hand with my thesis, I built a couple of tools:
-        one for merging different BibTeX files
-        (<a href="https://github.com/antonioalvarezl/2026-BibTeX-merger">see here</a>)
-        and a visualizer for MLPs and ResNets
-        (<a href="https://antonioalvarezl.github.io/NN-visualizer/">see here</a>).
-    </p>
-</li>
+        <p>
+            I created a GitHub repository with the code for our paper
+            <a href="https://arxiv.org/abs/2510.13134">
+                "Convergence, design and training of continuous-time dropout as a random batch method"
+            </a>
+            (<a href="https://github.com/antonioalvarezl/2026-CTDropout-RBM/tree/main">repo here</a>).
+        </p>
+    </li>
 
-<li class="update-card">
-    <span class="update-date">January 2026</span>
+    <li class="update-card">
+        <span class="update-date">February 2026</span>
 
-    <p>
-        <strong>New preprint on arXiv!</strong>
-        In collaboration with Borjan Geshkovski and Domènec Ruiz-Balet, we uploaded our work
-        <a href="https://www.arxiv.org/abs/2601.21366">
-            "Perceptrons and localization of attention's mean-field landscape"
-        </a>.
-    </p>
+        <p>
+            To give myself a hand with my thesis, I built a couple of tools:
+            one for merging different BibTeX files
+            (<a href="https://github.com/antonioalvarezl/2026-BibTeX-merger">see here</a>)
+            and a visualizer for MLPs and ResNets
+            (<a href="https://antonioalvarezl.github.io/NN-visualizer/">see here</a>).
+        </p>
+    </li>
 
-    <p>
-        We study the forward pass of Transformers as interacting particle systems
-        on the sphere, analyzing how the perceptron block affects the mean-field limit.
-    </p>
-</li>
+    <li class="update-card">
+        <span class="update-date">January 2026</span>
 
-<li class="update-card">
-    <span class="update-date">December 2025</span>
+        <p>
+            <strong>New preprint on arXiv!</strong>
+            In collaboration with Borjan Geshkovski and Domènec Ruiz-Balet, we uploaded our work
+            <a href="https://www.arxiv.org/abs/2601.21366">
+                "Perceptrons and localization of attention's mean-field landscape"
+            </a>.
+        </p>
 
-    <p>
-        I attended the
-        <a href="https://sites.google.com/view/ims-icsds2025/">
-            IMS International Conference on Statistics and Data Science (ICSDS)
-        </a>
-        in Seville. I had the honor of receiving the <b>Student Travel Award</b>
-        from Richard Samworth in person.
-    </p>
+        <p>
+            We study the forward pass of Transformers as interacting particle systems
+            on the sphere, analyzing how the perceptron block affects the mean-field limit.
+        </p>
+    </li>
 
-    <p>
-        I also presented my talk
-        <a href="/assets/slides/ICSDS.pdf">
-            "Continuous-Time Learning of Probability Distributions via Neural ODEs..."
-        </a>.
-    </p>
-</li>
+    <li class="update-card">
+        <span class="update-date">December 2025</span>
 
-<li class="update-card">
-    <span class="update-date">November 2025</span>
+        <p>
+            I attended the
+            <a href="https://sites.google.com/view/ims-icsds2025/">
+                IMS International Conference on Statistics and Data Science (ICSDS)
+            </a>
+            in Seville. I had the honor of receiving the <b>Student Travel Award</b>
+            from Richard Samworth in person.
+        </p>
 
-    <p>
-        I completed my fruitful research stay at the
-        <a href="https://www.nus.edu.sg/">National University of Singapore</a>
-        (August–November 2025), where I worked in the team of
-        <a href="https://blog.nus.edu.sg/qianxiaoli/">Prof. Qianxiao Li</a>.
-    </p>
+        <p>
+            I also presented my talk
+            <a href="/assets/slides/ICSDS.pdf">
+                "Continuous-Time Learning of Probability Distributions via Neural ODEs..."
+            </a>.
+        </p>
+    </li>
 
-    <p>
-        I am now back at
-        <a href="https://www.fau.eu/">
-            Friedrich-Alexander-Universität Erlangen-Nürnberg
-        </a>,
-        visiting my PhD advisor
-        <a href="https://dcn.nat.fau.eu/enrique-zuazua/">Prof. Enrique Zuazua</a>.
-    </p>
-</li>
+    <li class="update-card">
+        <span class="update-date">November 2025</span>
 
-<li class="update-card">
-    <span class="update-date">October 2025</span>
+        <p>
+            I completed my fruitful research stay at the
+            <a href="https://www.nus.edu.sg/">National University of Singapore</a>
+            (August–November 2025), where I worked in the team of
+            <a href="https://blog.nus.edu.sg/qianxiaoli/">Prof. Qianxiao Li</a>.
+        </p>
 
-    <p>
-        <strong>New preprint on arXiv!</strong>
-        In collaboration with fellow PhD student Martin Hernández, we uploaded our work
-        <a href="https://arxiv.org/abs/2510.13134">
-            "Convergence, design and training of continuous-time dropout as a random batch method"
-        </a>.
-    </p>
-</li>
+        <p>
+            I am now back at
+            <a href="https://www.fau.eu/">
+                Friedrich-Alexander-Universität Erlangen-Nürnberg
+            </a>,
+            visiting my PhD advisor
+            <a href="https://dcn.nat.fau.eu/enrique-zuazua/">Prof. Enrique Zuazua</a>.
+        </p>
+    </li>
 
-<li class="update-card">
-    <span class="update-date">October 2025</span>
+    <li class="update-card">
+        <span class="update-date">October 2025</span>
 
-    <p>
-        I decided to create this personal website to share my research and academic activities.
-    </p>
-</li>
+        <p>
+            <strong>New preprint on arXiv!</strong>
+            In collaboration with fellow PhD student Martin Hernández, we uploaded our work
+            <a href="https://arxiv.org/abs/2510.13134">
+                "Convergence, design and training of continuous-time dropout as a random batch method"
+            </a>.
+        </p>
+    </li>
 
-<li class="update-card">
-    <span class="update-date">September 2025</span>
+    <li class="update-card">
+        <span class="update-date">October 2025</span>
 
-    <p>
-        I received the <b>Student Travel Award</b> at the
-        <a href="https://sites.google.com/view/ims-icsds2025/">
-            IMS International Conference on Statistics and Data Science (ICSDS) 2025
-        </a>.
-    </p>
-</li>
+        <p>
+            I decided to create this personal website to share my research and academic activities.
+        </p>
+    </li>
 
-<li class="update-card">
-    <span class="update-date">September 2025</span>
+    <li class="update-card">
+        <span class="update-date">September 2025</span>
 
-    <p>
-        I gave two seminars on
-        "Entropy-driven control of the continuity equation for normalizing flows":
-    </p>
+        <p>
+            I received the <b>Student Travel Award</b> at the
+            <a href="https://sites.google.com/view/ims-icsds2025/">
+                IMS International Conference on Statistics and Data Science (ICSDS) 2025
+            </a>.
+        </p>
+    </li>
 
-    <ul style="margin-top: 5px; margin-bottom: 0;">
-        <li>
-            Sep 29:
-            <b>Machine Learning and Scientific Computing Seminar</b>, NUS.
-        </li>
+    <li class="update-card">
+        <span class="update-date">September 2025</span>
 
-        <li>
-            Sep 16:
-            <b>Nonlinear PDE Seminar</b>, Texas A&amp;M University.
-        </li>
-    </ul>
-</li>
+        <p>
+            I gave two seminars on
+            "Entropy-driven control of the continuity equation for normalizing flows":
+        </p>
 
-<li class="update-card">
-    <span class="update-date">August 2025</span>
+        <ul style="margin-top: 5px; margin-bottom: 0;">
+            <li>
+                Sep 29:
+                <b>Machine Learning and Scientific Computing Seminar</b>, NUS.
+            </li>
 
-    <p>
-        I started a 3-month research visit at the
-        <b>National University of Singapore</b>,
-        working with Prof. Qianxiao Li's group.
-    </p>
-</li>
-```
+            <li>
+                Sep 16:
+                <b>Nonlinear PDE Seminar</b>, Texas A&amp;M University.
+            </li>
+        </ul>
+    </li>
+
+    <li class="update-card">
+        <span class="update-date">August 2025</span>
+
+        <p>
+            I started a 3-month research visit at the
+            <b>National University of Singapore</b>,
+            working with Prof. Qianxiao Li's group.
+        </p>
+    </li>
 
 </ul>
 
