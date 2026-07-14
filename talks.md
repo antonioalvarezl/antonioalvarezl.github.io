@@ -190,7 +190,7 @@ title: Talks & Posters
   <li class="content-card talk-card thesis-defense-card">
     <span class="talk-date">1 Jul 2026</span>
     <strong class="talk-title">Deep Learning with Controlled Flows: Expressivity, Generalization and Generation</strong><br>
-    <em>Universidad Autónoma de Madrid</em>, Madrid, Spain.
+    Universidad Autónoma de Madrid, Madrid, Spain.
   </li>
 </ul>
 
