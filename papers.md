@@ -97,7 +97,7 @@ title: Papers
   </div>
 
   <section class="papers-thesis-section">
-    <h3 class="section-title section-subtitle">PhD Thesis</h3>
+    <h3 class="section-title section-subtitle">Doctoral Thesis</h3>
     <div class="papers-thesis-grid">
       <div class="content-card papers-thesis-card-full">
         <h3>Deep Learning with Controlled Flows: Expressivity, Generalization and Generation</h3>
