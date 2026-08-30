@@ -133,7 +133,7 @@ title: Talks & Posters
             <img src="/assets/images/slides/thesis.png" alt="Thesis slides preview" onerror="this.parentElement.classList.add('preview-missing'); this.remove();">
           </div>
         </a>
-        <p class="slide-caption">(Thesis slides)</p>
+        <p class="slide-caption">(Thesis)</p>
       </div>
 
       <div class="slide-item">
