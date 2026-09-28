@@ -14,7 +14,7 @@ title: Papers
       <div class="content-card">
         <h3>Gaussian mixture models in Hilbert spaces via kernel methods</h3>
         <p>Antonio Álvarez-López, Daniel López-Montero, Marcos Matabuena</p>
-         <p><em>Advances in Neural Information Processing Systems 2026 </em>  Spotlight paper</p>
+         <p><em>Advances in Neural Information Processing Systems 2026 </em> </p>
         <p class="link-pair">
           <a href="https://arxiv.org/abs/2605.05996">Paper</a>
           <a href="{{ '/assets/bibtex/hilbert-gmm.txt' | relative_url }}">BibTeX</a>
