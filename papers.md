@@ -10,10 +10,22 @@ title: Papers
     <section class="papers-column">
       <h3 class="section-title section-subtitle">Published &amp; Accepted</h3>
 
+
+      <div class="content-card">
+        <h3>Gaussian mixture models in Hilbert spaces via kernel methods</h3>
+        <p>Antonio Álvarez-López, Daniel López-Montero, Marcos Matabuena</p>
+         <p><em>Advances in Neural Information Processing Systems 2026 </em>  Spotlight paper</p>
+        <p class="link-pair">
+          <a href="https://arxiv.org/abs/2605.05996">Paper</a>
+          <a href="{{ '/assets/bibtex/hilbert-gmm.txt' | relative_url }}">BibTeX</a>
+        </p>
+      </div>
+
+      
       <div class="content-card">
         <h3>Perceptrons and localization of attention's mean-field landscape</h3>
         <p>Antonio Álvarez-López, Borjan Geshkovski, Domènec Ruiz-Balet</p>
-        <p><em>International Conference on Machine Learning 2026 </em>  Spotlight</p>
+        <p><em>International Conference on Machine Learning 2026 </em>  Spotlight paper</p>
         <p class="link-pair">
           <a href="https://www.arxiv.org/abs/2601.21366">Paper</a>
           <a href="{{ '/assets/bibtex/perceptrons.txt' | relative_url }}">BibTeX</a>
@@ -64,15 +76,6 @@ title: Papers
         </p>
       </div>
 
-      <div class="content-card">
-        <h3>Gaussian mixture models in Hilbert spaces via kernel methods</h3>
-        <p>Antonio Álvarez-López, Daniel López-Montero, Marcos Matabuena</p>
-        <p>ArXiv preprint, 2026</p>
-        <p class="link-pair">
-          <a href="https://arxiv.org/abs/2605.05996">Paper</a>
-          <a href="{{ '/assets/bibtex/hilbert-gmm.txt' | relative_url }}">BibTeX</a>
-        </p>
-      </div>
 
       <div class="content-card">
         <h3>Continuous-Time Learning of Probability Distributions: A Case Study in a Digital Trial of Young Children with Type 1 Diabetes</h3>
