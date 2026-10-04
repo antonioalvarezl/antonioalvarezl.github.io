@@ -371,7 +371,21 @@
 </div>
 
 <ul class="content-card-list">
-
+<li class="content-card talk-card">
+  <span class="talk-date">28 Sep 2026</span>
+  <strong class="talk-title">
+    <a href="https://www.arxiv.org/abs/2601.21366">
+      Perceptrons and Localization of Attention's Mean-field Landscape
+    </a>
+  </strong><br>
+  <em>
+    <a href="https://www.ntu.edu.sg/ias/news-events/events/detail/2026/09/28/default-calendar/ias-frontiers-conference-on-geometry--dynamics-and-learning-%28gdl2026%29">
+      IAS Frontiers Conference on Geometry, Dynamics and Learning (GDL2026)
+    </a>
+  </em>,
+  Nanyang Technological University, Singapore.
+</li>
+  
   <li class="content-card talk-card">
     <span class="talk-date">9 Jul 2026</span>
     <strong class="talk-title">Perceptrons and Localization of Attention's Mean-field Landscape</strong><br>
