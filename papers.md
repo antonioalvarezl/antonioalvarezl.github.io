@@ -63,8 +63,18 @@ title: Papers
       </div>
     </section>
 
-    <section class="papers-column">
+<section class="papers-column">
       <h3 class="section-title section-subtitle">Preprints</h3>
+
+      <div class="content-card">
+        <h3>Point interpolation and distributional universality in flow-based generative models</h3>
+        <p>Antonio Álvarez-López, Jingpu Cheng, Liyan Zhang, Qianxiao Li</p>
+        <p>ArXiv preprint, 2026</p>
+        <p class="link-pair">
+          <a href="https://arxiv.org/abs/2611.04207">Paper</a>
+          <a href="{{ '/assets/bibtex/point-interpolation.txt' | relative_url }}">BibTeX</a>
+        </p>
+      </div>
 
       <div class="content-card">
         <h3>Constructive interpolation and generalization rates for neural ODEs: a control perspective</h3>
@@ -75,7 +85,6 @@ title: Papers
           <a href="{{ '/assets/bibtex/interpolation-rates.txt' | relative_url }}">BibTeX</a>
         </p>
       </div>
-
 
       <div class="content-card">
         <h3>Continuous-Time Learning of Probability Distributions: A Case Study in a Digital Trial of Young Children with Type 1 Diabetes</h3>
