@@ -1,0 +1,13 @@
+@article{AlvarezLopez2026Point,
+
+  title   = {Point interpolation and distributional universality in flow-based generative models},
+
+  author  = {{\'A}lvarez-L{\'o}pez, Antonio and Cheng, Jingpu and Zhang, Liyan and Li, Qianxiao},
+
+  journal = {arXiv preprint arXiv:2611.04207},
+
+  year    = {2026},
+
+  url     = {https://arxiv.org/abs/2611.04207},
+
+}
