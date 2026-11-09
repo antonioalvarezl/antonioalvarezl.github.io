@@ -57,9 +57,10 @@ use-site-title: true
     .update-image {
         display: block;
         width: 100%;
-        height: 120px;
+        height: auto;
+        max-height: 160px;
         border-radius: 6px;
-        object-fit: cover;
+        object-fit: contain;
     }
 
     .update-image-row {
@@ -88,8 +89,9 @@ use-site-title: true
 
     .update-image-single {
         width: 260px;
-        height: 170px;
-        object-fit: cover;
+        height: auto;
+        max-height: 240px;
+        object-fit: contain;
         margin: 10px auto 0;
     }
 
@@ -99,12 +101,14 @@ use-site-title: true
         }
 
         .update-image {
-            height: 100px;
+            height: auto;
+            max-height: 130px;
         }
 
         .update-image-single {
             width: 220px;
-            height: 145px;
+            height: auto;
+            max-height: 200px;
         }
     }
 </style>
