@@ -100,7 +100,7 @@ title: Code
       <h3>Continuous-time Distribution Modeling for Digital Health</h3>
       <div class="card-media">
         <a class="card-media-link" href="https://github.com/antonioalvarezl/2026-MMD-NODE">
-          <img src="/assets/images/code/digital-health.gif" alt="Continuous-time Distribution Modeling preview">
+          <img src="/assets/images/code/patient_26.gif" alt="Continuous-time Distribution Modeling preview">
         </a>
       </div>
       <p>Optimization of a time-dependent Gaussian mixture using MMD fitting for means/covariances + neural ODEs for the weights evolution.</p>
