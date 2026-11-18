@@ -99,7 +99,7 @@ title: Code
     <div class="content-card code-card">
       <h3>Continuous-time Distribution Modeling for Digital Health</h3>
       <div class="card-media">
-        <a class="card-media-link" href="https://github.com/antonioalvarezl/2025-EM_MMD">
+        <a class="card-media-link" href="https://github.com/antonioalvarezl/2026-MMD-NODE">
           <img src="/assets/images/code/digital-health.gif" alt="Continuous-time Distribution Modeling preview">
         </a>
       </div>
